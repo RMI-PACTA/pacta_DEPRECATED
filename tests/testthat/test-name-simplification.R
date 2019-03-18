@@ -1,4 +1,4 @@
-library(twodii4loans)
+library(pacta)
 
 test_that("test is_empty for return value", {
   expect_true(is.na(simplifyName(NA)))

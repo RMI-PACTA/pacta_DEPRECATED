@@ -1,4 +1,4 @@
 library(testthat)
-library(twodii4loans)
+library(pacta)
 
-test_check("twodii4loans")
+test_check("pacta")

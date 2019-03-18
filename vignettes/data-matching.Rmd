@@ -163,10 +163,10 @@ This simple match results are then joined back with loanbook data and asset-leve
 
 ### Perfect matches
 
-Perfect mathes are result of match process (joined back to loanbook and asset-level data) that are directly used for megring them into loanbook for further analysdis. Only Match.Scores >= `r twodii4loans::match.score.perfect` treated as perfect matches. Perfect match score value can be observed via `twodii4loans::match.score.perfect` call.
+Perfect mathes are result of match process (joined back to loanbook and asset-level data) that are directly used for megring them into loanbook for further analysdis. Only Match.Scores >= `r pacta::match.score.perfect` treated as perfect matches. Perfect match score value can be observed via `pacta::match.score.perfect` call.
 
 ### Matches that require verification
-Matches that require verification are stored in separate dataset (and file). Their score should be in range between threshold and perfect (latter is excluded); default setting is: `r paste(twodii4loans::match.score.threshold, "<= Score <", twodii4loans::match.score.perfect)`. Default Threshold value can be examined by call `twodii4loans::match.score.threshold`. Structure of file is similar to file with perfect matches. Data in dataset should be examined and cases, which are true matches, should be copied into manual override dataset (see preparation section): user needs to copy all `.local` fields and replace `Original Value` and `Match Value` with values from `.global` side of dataset with match results.
+Matches that require verification are stored in separate dataset (and file). Their score should be in range between threshold and perfect (latter is excluded); default setting is: `r paste(pacta::match.score.threshold, "<= Score <", pacta::match.score.perfect)`. Default Threshold value can be examined by call `pacta::match.score.threshold`. Structure of file is similar to file with perfect matches. Data in dataset should be examined and cases, which are true matches, should be copied into manual override dataset (see preparation section): user needs to copy all `.local` fields and replace `Original Value` and `Match Value` with values from `.global` side of dataset with match results.
 
 ## Merging match results into loanbook
 

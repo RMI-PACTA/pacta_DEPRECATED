@@ -14,4 +14,4 @@ data.technology <-
     "Oil",
     "Gas"
   )
-devtools::use_data(data.technology, pkg = "twodii4loans", overwrite = T)
+devtools::use_data(data.technology, overwrite = T)

@@ -35,4 +35,4 @@ data.ownership.types <-
     "gmbh", 
     "spzoo"
   )
-devtools::use_data(data.ownership.types, pkg = "twodii4loans", overwrite = T)
+devtools::use_data(data.ownership.types, overwrite = T)

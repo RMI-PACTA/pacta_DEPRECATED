@@ -5,11 +5,11 @@
 \title{Prepare sets of values for Analysis purposes.}
 \usage{
 
-  proc.prepareAllLists4analysis(benchregions = twodii4loans::data.benchmark.regions,
-  indexregions = twodii4loans::data.index.regions,
-  countries = twodii4loans::data.country.iso.codes,
-  techlist = twodii4loans::data.technology,
-  sectorlist = twodii4loans::data.sector.classification)
+  proc.prepareAllLists4analysis(benchregions = pacta::data.benchmark.regions,
+  indexregions = pacta::data.index.regions,
+  countries = pacta::data.country.iso.codes,
+  techlist = pacta::data.technology,
+  sectorlist = pacta::data.sector.classification)
 }
 \arguments{
 \item{benchregions}{list of benchmark regions (optional)}

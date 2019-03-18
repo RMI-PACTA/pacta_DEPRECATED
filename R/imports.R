@@ -1,6 +1,6 @@
 #' Pipe functions
 #'
-#' Like dplyr, twodii4loans uses the pipe function, \code{\%>\%} to turn
+#' Like dplyr, PACTA uses the pipe function, \code{\%>\%} to turn
 #' function composition into a series of imperative statements.
 #'
 #' @importFrom magrittr %>%

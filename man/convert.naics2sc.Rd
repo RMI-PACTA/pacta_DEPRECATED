@@ -4,7 +4,7 @@
 \alias{convert.naics2sc}
 \title{convert NAICS -> Sector Classification}
 \usage{
-convert.naics2sc(naics, rules = twodii4loans::data.naics2sc.rules)
+convert.naics2sc(naics, rules = pacta::data.naics2sc.rules)
 }
 \arguments{
 \item{naics}{- 6-digit NAICS Industry code}

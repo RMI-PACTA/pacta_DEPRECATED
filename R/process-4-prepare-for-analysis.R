@@ -13,11 +13,11 @@
 #' @param techlist list of technologies to consider for analysis
 #' @param sectorlist list of sectors to consider in analysis
 proc.prepareAllLists4analysis <- function(
-  benchregions = twodii4loans::data.benchmark.regions, 
-  indexregions = twodii4loans::data.index.regions,
-  countries = twodii4loans::data.country.iso.codes,
-  techlist = twodii4loans::data.technology,
-  sectorlist = twodii4loans::data.sector.classification
+  benchregions = pacta::data.benchmark.regions, 
+  indexregions = pacta::data.index.regions,
+  countries = pacta::data.country.iso.codes,
+  techlist = pacta::data.technology,
+  sectorlist = pacta::data.sector.classification
 ) {
 
   BenchmarkRegionList <- data.frame(
@@ -349,8 +349,8 @@ proc.prepareSectorMaster4analysis <- function(
       Sector = if_else(Sector %in% c("Oil&Gas","Coal"),"Fossil Fuels", Sector)
     )
   
-  countries <- twodii4loans::data.country.iso.codes
-  benchregions <- twodii4loans::data.benchmark.regions
+  countries <- pacta::data.country.iso.codes
+  benchregions <- pacta::data.benchmark.regions
 
   # create dataframe with all Countries within Benchmark region
   countryRegion <- 
@@ -539,7 +539,7 @@ proc.prepareLoanbook4analysis <- function(
         TRUE ~ as.numeric(NA)
       ),
       LoanSize = case_when(
-        Sector.Classification %in% twodii4loans::data.sector.classification ~ LoanSize, 
+        Sector.Classification %in% pacta::data.sector.classification ~ LoanSize, 
         TRUE ~ 0
       ),
       Exposure.Type = exposure.type,

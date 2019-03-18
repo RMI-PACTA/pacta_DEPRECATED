@@ -31,7 +31,7 @@ check.ds_cols <- function(ds_name, ds_col_names) {
 #' @param ds_col_names vector of Dataset columns
 get.ds_missing_cols <- function(ds_name, ds_col_names) {
   requirements <- subset(
-    twodii4loans::dataset.req.attrs,
+    pacta::dataset.req.attrs,
     Dataset == ds_name
   )
   req.attr <- requirements$Attribute

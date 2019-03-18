@@ -7,6 +7,6 @@
 \item{lhs, rhs}{An R object and a function to apply to it}
 }
 \description{
-Like dplyr, twodii4loans uses the pipe function, \code{\%>\%} to turn
+Like dplyr, pacta uses the pipe function, \code{\%>\%} to turn
 function composition into a series of imperative statements.
 }

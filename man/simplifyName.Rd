@@ -5,8 +5,8 @@
 \title{Simplify customer name}
 \usage{
 simplifyName(name, cut.ownership = FALSE,
-  reduction = twodii4loans::data.name.reductions,
-  ownership = twodii4loans::data.ownership.types)
+  reduction = pacta::data.name.reductions,
+  ownership = pacta::data.ownership.types)
 }
 \arguments{
 \item{name}{text string to simplify}

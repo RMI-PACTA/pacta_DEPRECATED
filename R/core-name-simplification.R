@@ -21,8 +21,8 @@
 simplifyName <- function(
   name, 
   cut.ownership = FALSE, 
-  reduction = twodii4loans::data.name.reductions, 
-  ownership = twodii4loans::data.ownership.types
+  reduction = pacta::data.name.reductions, 
+  ownership = pacta::data.ownership.types
 ) {
   # replace long words with abbreviations
   substituteF <- function(text, abr) {

@@ -9,4 +9,4 @@ data.sector.classification <-
     "Shipping",
     "Steel"
   )
-devtools::use_data(data.sector.classification, pkg = "twodii4loans", overwrite = T)
+devtools::use_data(data.sector.classification, overwrite = T)

@@ -31,7 +31,7 @@ cross_join <- function(l, r) {
 #' @param na.rm remove NA values
 #'
 #' @examples 
-#' twodii4loans::ratio_to_report(c(1, 2, 3, NA, 5), na.rm = TRUE)
+#' pacta::ratio_to_report(c(1, 2, 3, NA, 5), na.rm = TRUE)
 ratio_to_report <- function(x, na.rm = FALSE) {
   total <- sum(x, na.rm = na.rm)
   total <- if (is.na(total) || total == 0) NA else total

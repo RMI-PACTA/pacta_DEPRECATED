@@ -52,7 +52,7 @@ dup.test<- function(x){
 #' @export
 #' @param naics - 6-digit NAICS Industry code
 #' @param rules - dataframe with conversion rules (example: \link{data.naics2sc.rules})
-convert.naics2sc <- function(naics, rules = twodii4loans::data.naics2sc.rules) {
+convert.naics2sc <- function(naics, rules = pacta::data.naics2sc.rules) {
   # prepare dataframe for use in merge operation
   x <- data.frame(
     Sector    = substr(naics, 1, 2),

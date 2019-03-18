@@ -1,4 +1,4 @@
-library(twodii4loans)
+library(pacta)
 
 test_that("test is_empty", {
   expect_equal(is_empty(NA), T)

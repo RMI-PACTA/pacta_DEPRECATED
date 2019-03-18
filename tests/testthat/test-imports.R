@@ -1,4 +1,4 @@
-library(twodii4loans)
+library(pacta)
 
 test_that("import pipe operator", {
   add2 <- function(x) {x + 2}

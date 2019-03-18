@@ -1,4 +1,4 @@
-library(twodii4loans)
+library(pacta)
 
 test_that("number of results", {
   expect_equal(nrow(matchNames(1, 0, 0, "all")), 1)

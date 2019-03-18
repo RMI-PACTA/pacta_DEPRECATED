@@ -20,5 +20,5 @@ function returns vector where each element represents weight of
   return very big numbers).
 }
 \examples{
-twodii4loans::ratio_to_report(c(1, 2, 3, NA, 5), na.rm = TRUE)
+pacta::ratio_to_report(c(1, 2, 3, NA, 5), na.rm = TRUE)
 }
