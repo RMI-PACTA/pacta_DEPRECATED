@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.com/2DegreesInvesting/Credit-Methodology.svg?token=2zLsWyJspq4x2F3gWvyf&branch=master)](https://travis-ci.com/2DegreesInvesting/Credit-Methodology)
+[![Build Status](https://travis-ci.com/2DegreesInvesting/pacta)](https://travis-ci.com/2DegreesInvesting/pacta)
+[![codecov](https://codecov.io/gh/2DegreesInvesting/pacta/branch/master/graphs/badge.svg)](https://codecov.io/gh/2DegreesInvesting/pacta)
+
 
 # pacta
 
@@ -10,7 +12,18 @@ Package includes useful functions and procedures which can be used by any user. 
 
 All package makes available set of functions which are pure in their behaviour - so they fully depend on input and produce output only according to input. No IO operations are done inside functions. All file access for reads and writes are performed script level and not part of this package.
 
-## Installation
+## Simple package installation 
+
+Install R first from [cran](https://cran.r-project.org). Please install R into local folder. Due to many files R works slowly when it is installed on network drive.
+
+Enter R envinronment, install additional packages this one
+
+```R
+install.packages("devtools")
+devtools::install_github(repo = "2DegreesInvesting/pacta")
+```
+
+## Installation of sources 
 
 Please note that `devtools` and `roxygen2` packages is required. This is easiest way to build packages in R. Please open R session and run following command
 
@@ -21,20 +34,20 @@ install.packages(c("devtools", "roxygen2"))
 After that you can clone git repository into your working folder
 
 ```sh
-git clone https://github.com/2DegreesInvesting/Credit-Methodology.git
+git clone https://github.com/2DegreesInvesting/pacta.git
 ```
 
 Now everything is ready, you can run RStudio and open project - there is a Rproj file in the root folder.
 
 ```sh
-./Credit-Methodology.Rproj
+./pacta.Rproj
 ```
 
-After project is open it needs to be built. Run `[Cmd/Ctrl]`+`[Shift]`+`B` to build project. R might request you to install additional packages used, please refer to `Imports:` section of package [DESCRIPTION](https://github.com/2DegreesInvesting/Credit-Methodology/twodii4loans/DESCRIPTION).
+After project is open it needs to be built. Run `[Cmd/Ctrl]`+`[Shift]`+`B` to build project. R might request you to install additional packages used, please refer to `Imports:` section of package [DESCRIPTION](/DESCRIPTION).
 
 ## Making changes 
 
-Please refer to CONTRIBUTING document that describes workflow used for changes. Few important rules worth mentioning again:
+Please refer to [CONTRIBUTING](/CONTRIBUTING) document that describes workflow used for changes. Few important rules worth mentioning again:
 
 * all changes are done via branches, no changes in `master` please;
 * first write test then write functionality - take care of automated testing;
