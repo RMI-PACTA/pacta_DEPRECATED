@@ -1,0 +1,69 @@
+Level,Code,Description,Sector.Classification
+Sector,11,"Agriculture, Forestry, Fishing and Hunting",
+Sector,21,"Mining, Quarrying, and Oil and Gas Extraction",
+Sector,22,Utilities,
+Sector,23,Construction,
+Sector,31,Manufacturing,
+Sector,32,Manufacturing,
+Sector,33,Manufacturing,
+Sector,42,Wholesale Trade,
+Sector,44,Retail Trade,
+Sector,45,Retail Trade,
+Sector,48,Transportation and Warehousing,
+Sector,49,Transportation and Warehousing,
+Sector,51,Information,
+Sector,52,Finance and Insurance,
+Sector,53,Real Estate and Rental and Leasing,
+Sector,54,"Professional, Scientific, and Technical Services",
+Sector,55,Management of Companies and Enterprises,
+Sector,56,Administrative and Support and Waste Management and Remediation,
+Sector,61,Educational Services,
+Sector,62,Health Care and Social Assistance,
+Sector,71,"Arts, Entertainment, and Recreation",
+Sector,72,Accommodation and Food Services,
+Sector,81,Other Services (except Public Administration),
+Sector,92,Public Administration,
+Subsector,211,Oil and Gas Extraction,"Fossil Fuels"
+Subsector,212,Mining (except Oil and Gas),
+Subsector,221,Conventional Electric Power Generation,
+Subsector,331,Primary Metal Manufacturing,
+Subsector,332,Fabricated Metal Product Manufacturing,
+Subsector,336,Transportation Equipment Manufacturing,
+Subsector,481,Air Transportation,Aviation
+Subsector,483,Water Transportation,Shipping
+Industry,212111,Bituminous Coal and Lignite Surface Mining,"Fossil Fuels"
+Industry,212112,Bituminous Coal Underground Mining,"Fossil Fuels"
+Industry,212113,Anthracite Mining,"Fossil Fuels"
+Industry,221111,Hydroelectric Power Generation,Power
+Industry,221112,Fossil Fuel Electric Power Generation,Power
+Industry,221113,Nuclear Electric Power Generation,Power
+Industry,221114,Solar Electric Power Generation,Power
+Industry,221115,Wind Electric Power Generation,Power
+Industry,221116,Geothermal Electric Power Generation,Power
+Industry,221117,Biomass Electric Power Generation,Power
+Industry,221118,Other Electric Power Generation,Power
+Industry,221124,Wind Onshore Electric Power Generation (Not Dependent on Subsidy),Power
+Industry,221125,Fossil Fuel Electric Power Generation (Gas),Power
+Industry,221126,Fossil Fuel Electric Power Generation (Coal),Power
+Industry,221127,Fossil Fuel Electric Power Generation (Oil),Power
+Industry,221130,Hydroelectric Power Generation (Dependent on Subsidy),Power
+Industry,221131,Solar Electric Power Generation (Dependent on Subsidy),Power
+Industry,221132,Geothermal Electric Power Generation (Dependent on Subsidy),Power
+Industry,221133,Biomass Electric Power Generation (Dependent on Subsidy),Power
+Industry,221134,Wind Offshore Electric Power Generation (Dependent on Subsidy),Power
+Industry,221135,Wind Onshore Electric Power Generation (Dependent on Subsidy),Power
+Industry,327310,Cement Manufacturing,Cement
+Industry,327320,Ready-Mix Concrete Manufacturing,
+Industry,327331,Concrete Block and Brick Manufacturing,
+Industry,327332,Concrete Pipe Manufacturing,
+Industry,327390,Other Concrete Product Manufacturing,
+Industry,331110,Iron and Steel Mills and Ferroalloy Manufacturing,Steel
+Industry,331210,Iron and Steel Pipes and Tubes Manufacturing from Purchased Steel,Steel
+Industry,331221,Cold Rolled Steel Shape Manufacturing,Steel
+Industry,331222,Steel Wire Drawing,Steel
+Industry,331512,Steel Investment Foundries,Steel
+Industry,331513,Steel Foundries (except Investment),Steel
+Industry,332111,Iron and Steel Forging,
+Industry,336111,Automobile Manufacturing,Automotive
+Industry,336112,Light Truck and Utility Vehicle Manufacturing,Automotive
+Industry,336120,Heavy Duty Truck Manufacturing,Automotive

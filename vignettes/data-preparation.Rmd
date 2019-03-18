@@ -1,0 +1,93 @@
+---
+title: "Local data preparation"
+author: "Evgeny Petrovskiy"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Local data prepoaration is first and important step in loan portfolio alignment analysis. Standard workflow sets minimum requirements for data provided by institution. This minimum set of attributes makes matching and analysis possible. Requirements define set of necessary attributes, their names and values (for some of them).
+
+## Process overview
+
+Data preparation process consists of 2 parts: 
+
+1. __unify local data__ - prepare local loanbook data for processing;
+2. __obtain global data__ in proper format.
+
+Process overview is represented in below diagram.
+
+![Data preparation process](./diagram-data-preparation.png)
+
+As a result of local data unification process local loanbook should contain attributes in a standard format. Obtained global data should also be standardized. Below you will find detailed description.
+
+## Loanbook structure
+
+_It is responsibility of institution to produce loanbook dataset of correct structure._
+
+After completion of __unify local data__ process there should be loanbook produced with a set of standard attributes of a specified format. It still can contain all original attributes (no restrictions) among standard ones. Level of granularity for local data should be contract level. Required atrtributes and their purpose are described in below table.
+
+| Column | Description |
+|---------------|-------------------------------------------|
+| Reporting Date | Reporting date in `YYYY-MM-DD` format; defines point in time described by orther data |
+| Loan Size | Loan Size, charateristic that includes unused limit, available for withdrawal and current outstanding |
+| Outstanding | Current contract outstanding |
+| Credit Limit | Original credit limit |
+| Maturity Date | Maturity date of contract - when it is expected to be repayed |
+| Sector Classification | Sector classification according to 2Dii (see Appendix)
+| _Asset ID_ | _Value that identifies asset which is funded by loan. It can be internal code or number or even name._
+| _Asset Name_ | _Name of Asset_ |
+| Borrower ID | Value that identifies Borrower. It can be internal code or number or even name. It is up to institution to decide what value to use, but value must porsent 
+| Borrower Name | Name of Borrower - party that receives loan from institution |
+| Borrower Country | Country Name (not code) of residence (or incorproration)? |
+| Borrower NAICS | Borrower's 6-digit NAICS industry code |
+| Borrower NAICS Description | NAICS economic activity description |
+| _LUP ID_ | _Legal Ultimate Parent (L.U.P.) ID_ |
+| _LUP Name_ | _Legal Ultimate Parent (L.U.P.) name_ |
+| _LUP Country_ | _Legal Ultimate Parent (L.U.P.) Country name_ |
+| _EUP ID_ | _Economic Ultimate Parent (E.U.P.) ID_ |
+| _EUP Name_ | _Economic Ultimate Parent (E.U.P.) name_ |
+| _EUP Country_ | _Economic Ultimate Parent (E.U.P.) Country name_ |
+
+Attributes listed above must present in a data set as a result of local data preparation. Attributes which names are written in _italic_ are optional and may contain empty values. 
+
+## Deriving Sector Classification
+
+One can derive value for `Sector Classification` attribute of loanbook based on given industry codes and set of rules. There is specific function `convert.naics2sc(naics, rules)` that can analyze NAICS code(s) and based on rules from `naics2sc.rules` return Sector Clsassification(s) as a result.
+
+
+## Global data structure
+
+Global data includes following references, forecasts, scenarios. Overview of data entities is given below. 
+
+| File | Description |
+|---------------|-------------------------------------------|
+| ald-asset.csv | Information about assets and their owners |
+| ald-value.csv | Information about values associated with assets (e.g. capacity by years) |
+| ... | ... |
+
+Global data is coming in processing-compatible format.
+
+## Result
+
+As a result of this process all data should be collected for further processing.
+
+## Appendices
+
+## Appendix 1. Sector Classification
+
+Sector is a taxonomy for economic activities funded with loans. This classification includes:
+
+| Sector classification | Description |
+|---------------|-------------------------------------------|
+| Automotive | Automotive - cars and trucks production |
+| Aviation | Transportation - Aviation |
+| Cement | Cement & Other Building Materials |
+| Fossil fuels | Oil and Gas upstream; Coal mining |
+| Power | Electricity generation |
+| Shipping | Transportation - Shipping |
+| Steel | Steel production |
+

@@ -1,0 +1,17 @@
+Stage,Process,Dataset,Location,File Name Pattern,Comment
+Match,Match,Loanbook,{data-input}/loanbook,\d{8}_Terra_.*\.csv,
+Match,Match,Manual links,{data-input}/manual-input,manual-client-linkage.csv,
+Match,Match,Company data: Fossil Fuels sector,{data-input}/company-data,ald-master.csv,combined
+Match,Match,Company data: Automotive sector,{data-input}/company-data,ald-master.csv,combined
+Match,Match,Company data: Power sector,{data-input}/company-data,ald-master.csv,combined
+Match,Match,Company data: Cement sector,{data-input}/company-data,cement.csv,
+Match,Match,Company data: Aviation sector,{data-input}/company-data,aviation-market.csv,
+Match,Match,Company data: Shipping sector,{data-input}/company-data,shipping-rightship.csv,
+Match,Match,Company data: Steel sector,{data-input}/company-data,steel-market.csv,
+Analysis,Analysis,Loanbook matched,{data-result},loanbook-match-result.csv,
+Analysis,Analysis,Reference: IEA targets,{data-input}/reference-data,IEATargets.csv,
+Analysis,Analysis,Company data: Fossil Fuels sector,{data-input}/company-data,OG_CompanyMaster.csv,
+Analysis,Analysis,Company data: Fossil Fuels sector,{data-input}/company-data,OG_AssetMaster.csv,
+Analysis,Analysis,Company data: Power sector,{data-input}/company-data,Power_CompanyMaster.csv,
+Analysis,Analysis,Company data: Power sector,{data-input}/company-data,Power_AssetMaster.csv,
+Analysis,Analysis,Company data: Automotive sector,{data-input}/company-data,Auto_CompanyMaster.csv,

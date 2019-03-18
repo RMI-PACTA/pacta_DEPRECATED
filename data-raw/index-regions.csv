@@ -1,0 +1,285 @@
+IndexUniverse,IndexUniverseColname,Global,Global_ISO,MSCIWorld,MSCIWorld_ISO,MSCIEmergingMarkets,MSCIEmergingMarkets_ISO,MSCIACWI,MSCIACWI_ISO,Stoxx600,Stoxx600_ISO,SP500,SP500_ISO,OutsideACWI,OutsideACWI_ISO
+Global,Global_ISO,Afghanistan,AF,Australia,AU,Brazil,BR,Australia,AU,Austria,AT,United States,US,Afghanistan,AF
+MSCIWorld,MSCIWorld_ISO,Albania,AL,Austria,AT,Chile,CL,Austria,AT,Belgium,BE,,,Albania,AL
+MSCIEmergingMarkets,MSCIEmergingMarkets_ISO,Algeria,DZ,Belgium,BE,China,CN,Belgium,BE,Czech Republic,CZ,,,Algeria,DZ
+MSCIACWI,MSCIACWI_ISO,American Samoa,AS,Canada,CA,Colombia,CO,Brazil,BR,Denmark,DK,,,American Samoa,AS
+Stoxx600,Stoxx600_ISO,Andorra,AD,Denmark,DK,Czech Republic,CZ,Canada,CA,Finland,FI,,,Andorra,AD
+SP500,SP500_ISO,Angola,AO,Finland,FI,Egypt,EG,Chile,CL,France,FR,,,Angola,AO
+OutsideACWI,OutsideACWI_ISO,Anguilla,AI,France,FR,Greece,GR,China,CN,Germany,DE,,,Anguilla,AI
+,,Antigua And Barbuda,AG,Germany,DE,Hungary,HU,Colombia,CO,Ireland,IE,,,Antigua And Barbuda,AG
+,,Argentina,AR,Hong Kong,HK,India,IN,Czech Republic,CZ,Italy,IT,,,Argentina,AR
+,,Armenia,AM,Ireland,IE,Indonesia,ID,Denmark,DK,Luxembourg,LU,,,Armenia,AM
+,,Aruba,AW,Italy,IT,Korea,KR,Egypt,EG,Netherlands,NL,,,Aruba,AW
+,,Australia,AU,Japan,JP,Malaysia,MY,Finland,FI,Norway,NO,,,Azerbaijan,AZ
+,,Austria,AT,Netherlands,NL,Mexico,MX,France,FR,Portugal,PT,,,Bahamas,BS
+,,Azerbaijan,AZ,New Zealand,NZ,Peru,PE,Germany,DE,Spain,ES,,,Bahrain,BH
+,,Bahamas,BS,Norway,NO,Philippines,PH,Greece,GR,Sweden,SE,,,Bangladesh,BD
+,,Bahrain,BH,Portugal,PT,Poland,PL,Hong Kong,HK,Switzerland,CH,,,Barbados,BB
+,,Bangladesh,BD,Singapore,SG,Qatar,QA,Hungary,HU,United Kingdom,GB,,,Belarus,BY
+,,Barbados,BB,Spain,ES,Russia,RU,India,IN,United Kingdom,UK,,,Belize,BZ
+,,Belarus,BY,Sweden,SE,South Africa,ZA,Indonesia,ID,,,,,Benin,BJ
+,,Belgium,BE,Switzerland,CH,Taiwan,TW,Ireland,IE,,,,,Bermuda,BM
+,,Belize,BZ,United Kingdom,GB,Thailand,TH,Italy,IT,,,,,Bhutan,BT
+,,Benin,BJ,United States,US,Turkey,TR,Japan,JP,,,,,Bolivia,BO
+,,Bermuda,BM,United Kingdom,UK,Unites Arab Emirates,AE,Korea,KR,,,,,Bosnia and Herzegovina,BA
+,,Bhutan,BT,,,,,Malaysia,MY,,,,,Botswana,BW
+,,Bolivia,BO,,,,,Mexico,MX,,,,,British Virgin Islands,VG
+,,Bosnia and Herzegovina,BA,,,,,Netherlands,NL,,,,,Brunei Darussalam,BN
+,,Botswana,BW,,,,,New Zealand,NZ,,,,,Bulgaria,BG
+,,Brazil,BR,,,,,Norway,NO,,,,,Burkina Faso,BF
+,,British Virgin Islands,VG,,,,,Peru,PE,,,,,Burundi,BI
+,,Brunei Darussalam,BN,,,,,Philippines,PH,,,,,Cambodia,KH
+,,Bulgaria,BG,,,,,Poland,PL,,,,,Cameroon,CM
+,,Burkina Faso,BF,,,,,Portugal,PT,,,,,Cape Verde,CV
+,,Burundi,BI,,,,,Qatar,QA,,,,,Cayman Islands,KY
+,,Cambodia,KH,,,,,Russia,RU,,,,,Chad,TD
+,,Cameroon,CM,,,,,Singapore,SG,,,,,Cook Islands,CK
+,,Canada,CA,,,,,South Africa,ZA,,,,,Costa Rica,CR
+,,Cape Verde,CV,,,,,Spain,ES,,,,,Croatia,HR
+,,Cayman Islands,KY,,,,,Sweden,SE,,,,,Cuba,CU
+,,Chad,TD,,,,,Switzerland,CH,,,,,Curacao,CW
+,,Chile,CL,,,,,Taiwan,TW,,,,,Cyprus,CY
+,,China,CN,,,,,Thailand,TH,,,,,Democratic Republic of the Congo,CD
+,,Colombia,CO,,,,,Turkey,TR,,,,,Djibouti,DJ
+,,Cook Islands,CK,,,,,United Kingdom,GB,,,,,Dominica,DM
+,,Costa Rica,CR,,,,,United States,US,,,,,Dominican Republic,DO
+,,Croatia,HR,,,,,Unites Arab Emirates,AE,,,,,Ecuador,EC
+,,Cuba,CU,,,,,United Kingdom,UK,,,,,El Salvador,SV
+,,Curacao,CW,,,,,,,,,,,Equatorial Guinea,GQ
+,,Cyprus,CY,,,,,,,,,,,Eritrea,ER
+,,Czech Republic,CZ,,,,,,,,,,,Estonia,EE
+,,Democratic People's Republic of Korea,KR,,,,,,,,,,,Ethiopia,ET
+,,Democratic Republic of the Congo,CD,,,,,,,,,,,Faroe Islands,FO
+,,Denmark,DK,,,,,,,,,,,Fiji,FJ
+,,Djibouti,DJ,,,,,,,,,,,French Guiana,GF
+,,Dominica,DM,,,,,,,,,,,French Polynesia,PF
+,,Dominican Republic,DO,,,,,,,,,,,Gabon,GA
+,,Ecuador,EC,,,,,,,,,,,Gambia,GM
+,,Egypt,EG,,,,,,,,,,,Georgia,GE
+,,El Salvador,SV,,,,,,,,,,,Ghana,GH
+,,Equatorial Guinea,GQ,,,,,,,,,,,Gibraltar,GI
+,,Eritrea,ER,,,,,,,,,,,Greenland,GL
+,,Estonia,EE,,,,,,,,,,,Grenada,GD
+,,Ethiopia,ET,,,,,,,,,,,Guadeloupe,GP
+,,Faroe Islands,FO,,,,,,,,,,,Guam,GU
+,,Fiji,FJ,,,,,,,,,,,Guatemala,GT
+,,Finland,FI,,,,,,,,,,,Guernsey,GG
+,,France,FR,,,,,,,,,,,Guinea,GN
+,,French Guiana,GF,,,,,,,,,,,GuineaBissau,GW
+,,French Polynesia,PF,,,,,,,,,,,Guyana,GY
+,,Gabon,GA,,,,,,,,,,,Haiti,HT
+,,Gambia,GM,,,,,,,,,,,Honduras,HN
+,,Georgia,GE,,,,,,,,,,,Iceland,IS
+,,Germany,DE,,,,,,,,,,,Iran (Islamic Republic of Iran),IR
+,,Ghana,GH,,,,,,,,,,,Iraq,IQ
+,,Gibraltar,GI,,,,,,,,,,,Islamic Republic of Mauritania,MR
+,,Greece,GR,,,,,,,,,,,Isle of Man,IM
+,,Greenland,GL,,,,,,,,,,,Israel,IL
+,,Grenada,GD,,,,,,,,,,,Ivory Coast,CI
+,,Guadeloupe,GP,,,,,,,,,,,Jamaica,JM
+,,Guam,GU,,,,,,,,,,,Jersey,JE
+,,Guatemala,GT,,,,,,,,,,,Jordan,JO
+,,Guernsey,GG,,,,,,,,,,,Kazakhstan,KZ
+,,Guinea,GN,,,,,,,,,,,Kenya,KE
+,,GuineaBissau,GW,,,,,,,,,,,Kiribati,KI
+,,Guyana,GY,,,,,,,,,,,Kosovo,RS
+,,Haiti,HT,,,,,,,,,,,Kuwait,KW
+,,Honduras,HN,,,,,,,,,,,Kyrgyzstan,KG
+,,Hong Kong Special Administrative Region of China,HK,,,,,,,,,,,Lao People's Democratic Republic,LA
+,,Hungary,HU,,,,,,,,,,,Latvia,LV
+,,Iceland,IS,,,,,,,,,,,Lebanon,LB
+,,India,IN,,,,,,,,,,,Lesotho,LS
+,,Indonesia,ID,,,,,,,,,,,Liberia,LR
+,,Iran (Islamic Republic of Iran),IR,,,,,,,,,,,Libyan Arab Jamahiriya,LY
+,,Iraq,IQ,,,,,,,,,,,Lithuania,LT
+,,Ireland,IE,,,,,,,,,,,Luxembourg,LU
+,,Islamic Republic of Mauritania,MR,,,,,,,,,,,Macau Special Administrative Region of China,MO
+,,Isle of Man,IM,,,,,,,,,,,Madagascar,MG
+,,Israel,IL,,,,,,,,,,,Malawi,MW
+,,Italy,IT,,,,,,,,,,,Maldives,MV
+,,Ivory Coast,CI,,,,,,,,,,,Mali,ML
+,,Jamaica,JM,,,,,,,,,,,Malta,MT
+,,Japan,JP,,,,,,,,,,,Marshall Islands,MH
+,,Jersey,JE,,,,,,,,,,,Martinique,MQ
+,,Jordan,JO,,,,,,,,,,,Mauritius,MU
+,,Kazakhstan,KZ,,,,,,,,,,,Mayotte,YT
+,,Kenya,KE,,,,,,,,,,,Micronesia (Federated States of),FM
+,,Kiribati,KI,,,,,,,,,,,Mongolia,MN
+,,Kosovo,RS,,,,,,,,,,,Montenegro,ME
+,,Kuwait,KW,,,,,,,,,,,Morocco,MA
+,,Kyrgyzstan,KG,,,,,,,,,,,Mozambique,MZ
+,,Lao People's Democratic Republic,LA,,,,,,,,,,,Myanmar,MM
+,,Latvia,LV,,,,,,,,,,,Nepal,NP
+,,Lebanon,LB,,,,,,,,,,,New Caledonia,NC
+,,Lesotho,LS,,,,,,,,,,,Nicaragua,NI
+,,Liberia,LR,,,,,,,,,,,Niger,NE
+,,Libyan Arab Jamahiriya,LY,,,,,,,,,,,Nigeria,NG
+,,Lithuania,LT,,,,,,,,,,,Oman,OM
+,,Luxembourg,LU,,,,,,,,,,,Pakistan,PK
+,,Macau Special Administrative Region of China,MO,,,,,,,,,,,Palau,PW
+,,Madagascar,MG,,,,,,,,,,,Panama,PA
+,,Malawi,MW,,,,,,,,,,,Papua New Guinea,PG
+,,Malaysia,MY,,,,,,,,,,,Paraguay,PY
+,,Maldives,MV,,,,,,,,,,,Puerto Rico,PR
+,,Mali,ML,,,,,,,,,,,Republic of Congo,CG
+,,Malta,MT,,,,,,,,,,,Republic of Korea,KP
+,,Marshall Islands,MH,,,,,,,,,,,Republic of Macedonia,MK
+,,Martinique,MQ,,,,,,,,,,,Republic of Moldova,MD
+,,Mauritius,MU,,,,,,,,,,,Reunion,RE
+,,Mayotte,YT,,,,,,,,,,,Romania,RO
+,,Mexico,MX,,,,,,,,,,,Rwanda,RW
+,,Micronesia (Federated States of),FM,,,,,,,,,,,Samoa,WS
+,,Mongolia,MN,,,,,,,,,,,Saudi Arabia,SA
+,,Montenegro,ME,,,,,,,,,,,Senegal,SN
+,,Morocco,MA,,,,,,,,,,,Serbia,RS
+,,Mozambique,MZ,,,,,,,,,,,Seychelles,SC
+,,Myanmar,MM,,,,,,,,,,,Sierra Leone,SL
+,,Nepal,NP,,,,,,,,,,,Slovakia,SK
+,,Netherlands,NL,,,,,,,,,,,Slovenia,SI
+,,New Caledonia,NC,,,,,,,,,,,Solomon Islands,SB
+,,New Zealand,NZ,,,,,,,,,,,Somalia,SO
+,,Nicaragua,NI,,,,,,,,,,,Somaliland,SO
+,,Niger,NE,,,,,,,,,,,Sri Lanka,LK
+,,Nigeria,NG,,,,,,,,,,,Sudan,SD
+,,Norway,NO,,,,,,,,,,,Suriname,SR
+,,Oman,OM,,,,,,,,,,,Swaziland,SZ
+,,Pakistan,PK,,,,,,,,,,,Syrian Arab Republic,SY
+,,Palau,PW,,,,,,,,,,,Tajikistan,TJ
+,,Panama,PA,,,,,,,,,,,TimorLeste,TL
+,,Papua New Guinea,PG,,,,,,,,,,,Togo,TG
+,,Paraguay,PY,,,,,,,,,,,Tokelau,TK
+,,Peru,PE,,,,,,,,,,,Tonga,TO
+,,Philippines,PH,,,,,,,,,,,Trinidad and Tobago,TT
+,,Poland,PL,,,,,,,,,,,Tunisia,TN
+,,Portugal,PT,,,,,,,,,,,Turkmenistan,TM
+,,Puerto Rico,PR,,,,,,,,,,,Tuvalu,TV
+,,Qatar,QA,,,,,,,,,,,Uganda,UG
+,,Republic of Congo,CG,,,,,,,,,,,Ukraine,UA
+,,Republic of Korea,KP,,,,,,,,,,,United Republic Of Tanzania,TZ
+,,Republic of Macedonia,MK,,,,,,,,,,,Uruguay,UY
+,,Republic of Moldova,MD,,,,,,,,,,,Uzbekistan,UZ
+,,Reunion,RE,,,,,,,,,,,Vanuatu,VU
+,,Romania,RO,,,,,,,,,,,Venezuela,VE
+,,Russian Federation,RU,,,,,,,,,,,Vietnam,VN
+,,Rwanda,RW,,,,,,,,,,,Virgin Islands (US),VI
+,,Samoa,WS,,,,,,,,,,,Yemen,YE
+,,Saudi Arabia,SA,,,,,,,,,,,Zambia,ZM
+,,Senegal,SN,,,,,,,,,,,Zimbabwe,ZW
+,,Serbia,RS,,,,,,,,,,,AngolaCongo Republic Joint Development Area,AO
+,,Seychelles,SC,,,,,,,,,,,Brunei,BN
+,,Sierra Leone,SL,,,,,,,,,,,Comoros,KM
+,,Singapore,SG,,,,,,,,,,,Congo Republic,CG
+,,Slovakia,SK,,,,,,,,,,,Cote d'Ivoire,CI
+,,Slovenia,SI,,,,,,,,,,,Falkland Islands,FK
+,,Solomon Islands,SB,,,,,,,,,,,Iran,IR
+,,Somalia,SO,,,,,,,,,,,KuwaitSaudi Arabia Partitioned Neutral Zone,KW
+,,Somaliland,SO,,,,,,,,,,,Libya,LY
+,,South Africa,ZA,,,,,,,,,,,Mauritania,MR
+,,Spain,ES,,,,,,,,,,,South Sudan,SS
+,,Sri Lanka,LK,,,,,,,,,,,Syria,SY
+,,Sudan,SD,,,,,,,,,,,Tanzania,TZ
+,,Suriname,SR,,,,,,,,,,,Timor Sea Joint Petroleum Development Area,TL
+,,Swaziland,SZ,,,,,,,,,,,Saint Barthelemy,BL
+,,Sweden,SE,,,,,,,,,,,"Saint Helena, Ascension and Tristan da Cunha",SH
+,,Switzerland,CH,,,,,,,,,,,Saint Kitts and Nevis,KN
+,,Syrian Arab Republic,SY,,,,,,,,,,,Saint Lucia,LC
+,,Taiwan,TW,,,,,,,,,,,Saint Pierre and Miquelon,PM
+,,Tajikistan,TJ,,,,,,,,,,,Saint Vincent and the Grenadines,VC
+,,Thailand,TH,,,,,,,,,,,Sint Maarten,MF
+,,TimorLeste,TL,,,,,,,,,,,Antarctica,AQ
+,,Togo,TG,,,,,,,,,,,Bonaire,BQ
+,,Tokelau,TK,,,,,,,,,,,Bouvet Island,BV
+,,Tonga,TO,,,,,,,,,,,British Indian Ocean Territory,IO
+,,Trinidad and Tobago,TT,,,,,,,,,,,Central African Republic,CF
+,,Tunisia,TN,,,,,,,,,,,Christmas Island,CX
+,,Turkey,TR,,,,,,,,,,,Cocos (Keeling) Islands,CC
+,,Turkmenistan,TM,,,,,,,,,,,Congo,CG
+,,Tuvalu,TV,,,,,,,,,,,Falkland Islands (Malvinas),FK
+,,Uganda,UG,,,,,,,,,,,French Southern Territories,TF
+,,Ukraine,UA,,,,,,,,,,,Heard Island and McDonald Mcdonald Islands,HM
+,,United Arab Emirates,AE,,,,,,,,,,,Holy See (Vatican City State),VA
+,,United Kingdom,GB,,,,,,,,,,,"Iran, Islamic Republic of",IR
+,,United Republic Of Tanzania,TZ,,,,,,,,,,,"Korea, Democratic People's Republic of",KP
+,,United States,US,,,,,,,,,,,Liechtenstein,LI
+,,Uruguay,UY,,,,,,,,,,,Macao,MO
+,,Uzbekistan,UZ,,,,,,,,,,,"Macedonia, the Former Yugoslav Republic of",MK
+,,Vanuatu,VU,,,,,,,,,,,"Micronesia, Federated States of",FM
+,,Venezuela,VE,,,,,,,,,,,"Moldova, Republic of",MD
+,,Vietnam,VN,,,,,,,,,,,Monaco,MC
+,,Virgin Islands (US),VI,,,,,,,,,,,Montserrat,MS
+,,Yemen,YE,,,,,,,,,,,Namibia,NA
+,,Zambia,ZM,,,,,,,,,,,Nauru,NR
+,,Zimbabwe,ZW,,,,,,,,,,,Niue,NU
+,,AngolaCongo Republic Joint Development Area,AO,,,,,,,,,,,Norfolk Island,NF
+,,Brunei,BN,,,,,,,,,,,Northern Mariana Islands,MP
+,,Comoros,KM,,,,,,,,,,,"Palestine, State of",PS
+,,Congo Republic,CG,,,,,,,,,,,Pitcairn,PN
+,,Cote d'Ivoire,CI,,,,,,,,,,,Saint Helena,SH
+,,Falkland Islands,FK,,,,,,,,,,,Saint Martin (French part),MF
+,,Iran,IR,,,,,,,,,,,San Marino,SM
+,,KuwaitSaudi Arabia Partitioned Neutral Zone,KW,,,,,,,,,,,Sao Tome and Principe,ST
+,,Libya,LY,,,,,,,,,,,Sint Maarten (Dutch part),SX
+,,Malaysia  Thailand Joint Development Area,MY,,,,,,,,,,,South Georgia and the South Sandwich Islands,GS
+,,Malaysia  Vietnam PM3 Commercial Arrangement Area,MY,,,,,,,,,,,Svalbard and Jan Mayen,SJ
+,,Mauritania,MR,,,,,,,,,,,Turks and Caicos Islands,TC
+,,Russia,RU,,,,,,,,,,,United States Minor Outlying Islands,UM
+,,South Korea,KR,,,,,,,,,,,Viet Nam,VN
+,,South Sudan,SS,,,,,,,,,,,US Virgin Islands,VI
+,,Syria,SY,,,,,,,,,,,Wallis and Futuna,WF
+,,Tanzania,TZ,,,,,,,,,,,Western Sahara,EH
+,,Timor Sea Joint Petroleum Development Area,TL,,,,,,,,,,,Aland Islands,AX
+,,Saint Barthelemy,BL,,,,,,,,,,,Global,Global
+,,"Saint Helena, Ascension and Tristan da Cunha",SH,,,,,,,,,,,OECD,OECD
+,,Saint Kitts and Nevis,KN,,,,,,,,,,,NonOECD,NonOECD
+,,Saint Lucia,LC,,,,,,,,,,,,
+,,Saint Pierre and Miquelon,PM,,,,,,,,,,,,
+,,Saint Vincent and the Grenadines,VC,,,,,,,,,,,,
+,,Sint Maarten,MF,,,,,,,,,,,,
+,,Antarctica,AQ,,,,,,,,,,,,
+,,Bonaire,BQ,,,,,,,,,,,,
+,,Bouvet Island,BV,,,,,,,,,,,,
+,,British Indian Ocean Territory,IO,,,,,,,,,,,,
+,,Central African Republic,CF,,,,,,,,,,,,
+,,Christmas Island,CX,,,,,,,,,,,,
+,,Cocos (Keeling) Islands,CC,,,,,,,,,,,,
+,,Congo,CG,,,,,,,,,,,,
+,,Falkland Islands (Malvinas),FK,,,,,,,,,,,,
+,,French Southern Territories,TF,,,,,,,,,,,,
+,,Heard Island and McDonald Mcdonald Islands,HM,,,,,,,,,,,,
+,,Holy See (Vatican City State),VA,,,,,,,,,,,,
+,,Hong Kong,HK,,,,,,,,,,,,
+,,"Iran, Islamic Republic of",IR,,,,,,,,,,,,
+,,"Korea, Democratic People's Republic of",KP,,,,,,,,,,,,
+,,"Korea, Republic of",KR,,,,,,,,,,,,
+,,Liechtenstein,LI,,,,,,,,,,,,
+,,Macao,MO,,,,,,,,,,,,
+,,"Macedonia, the Former Yugoslav Republic of",MK,,,,,,,,,,,,
+,,"Micronesia, Federated States of",FM,,,,,,,,,,,,
+,,"Moldova, Republic of",MD,,,,,,,,,,,,
+,,Monaco,MC,,,,,,,,,,,,
+,,Montserrat,MS,,,,,,,,,,,,
+,,Namibia,NA,,,,,,,,,,,,
+,,Nauru,NR,,,,,,,,,,,,
+,,Niue,NU,,,,,,,,,,,,
+,,Norfolk Island,NF,,,,,,,,,,,,
+,,Northern Mariana Islands,MP,,,,,,,,,,,,
+,,"Palestine, State of",PS,,,,,,,,,,,,
+,,Pitcairn,PN,,,,,,,,,,,,
+,,Saint Helena,SH,,,,,,,,,,,,
+,,Saint Martin (French part),MF,,,,,,,,,,,,
+,,San Marino,SM,,,,,,,,,,,,
+,,Sao Tome and Principe,ST,,,,,,,,,,,,
+,,Sint Maarten (Dutch part),SX,,,,,,,,,,,,
+,,South Georgia and the South Sandwich Islands,GS,,,,,,,,,,,,
+,,Svalbard and Jan Mayen,SJ,,,,,,,,,,,,
+,,"Taiwan, Province of China",TW,,,,,,,,,,,,
+,,Turks and Caicos Islands,TC,,,,,,,,,,,,
+,,United States Minor Outlying Islands,UM,,,,,,,,,,,,
+,,Viet Nam,VN,,,,,,,,,,,,
+,,US Virgin Islands,VI,,,,,,,,,,,,
+,,Wallis and Futuna,WF,,,,,,,,,,,,
+,,Western Sahara,EH,,,,,,,,,,,,
+,,Aland Islands,AX,,,,,,,,,,,,
+,,Global,Global,,,,,,,,,,,,
+,,OECD,OECD,,,,,,,,,,,,
+,,NonOECD,NonOECD,,,,,,,,,,,,
