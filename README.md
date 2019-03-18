@@ -47,7 +47,7 @@ After project is open it needs to be built. Run `[Cmd/Ctrl]`+`[Shift]`+`B` to bu
 
 ## Making changes 
 
-Please refer to [CONTRIBUTING](/CONTRIBUTING) document that describes workflow used for changes. Few important rules worth mentioning again:
+Please refer to [CONTRIBUTING](/CONTRIBUTING.md) document that describes workflow used for changes. Few important rules worth mentioning again:
 
 * all changes are done via branches, no changes in `master` please;
 * first write test then write functionality - take care of automated testing;
