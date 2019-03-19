@@ -16,7 +16,7 @@ All package makes available set of functions which are pure in their behaviour -
 
 Install R first from [cran](https://cran.r-project.org). Please install R into local folder. Due to many files R works slowly when it is installed on network drive.
 
-Enter R envinronment, install additional packages this one
+Enter R envinronment, install additional packages
 
 ```R
 install.packages("devtools")
