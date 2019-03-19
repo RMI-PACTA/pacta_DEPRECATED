@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/2DegreesInvesting/pacta)](https://travis-ci.com/2DegreesInvesting/pacta)
+[![Build Status](https://travis-ci.com/2DegreesInvesting/pacta.svg?token=2zLsWyJspq4x2F3gWvyf&branch=master)](https://travis-ci.com/2DegreesInvesting/pacta)
 [![codecov](https://codecov.io/gh/2DegreesInvesting/pacta/branch/master/graphs/badge.svg)](https://codecov.io/gh/2DegreesInvesting/pacta)
 
 
