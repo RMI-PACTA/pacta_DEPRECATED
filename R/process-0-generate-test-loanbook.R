@@ -7,7 +7,7 @@
 #' @param name Company name
 #' @param country Residense country
 #' @param industry Company NAICS code
-#' @param industry Company NAICS description
+#' @param industry_desc Company NAICS description
 #' @param rows Number of loans to Generate. In case number is provided companies 
 #'   will be randomly picked up using \code{sample} function with 
 #'   \code{replace = T} property.
