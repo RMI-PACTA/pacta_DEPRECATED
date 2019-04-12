@@ -9,11 +9,11 @@ rows <- nrow(data.file)
 data.test.loanbook <- data.frame(
   Source = "pacta::data.test.loanbook",
   Reporting.Date = Sys.Date(),
-  Facility.ID = paste("Facility", substr(0.1E10 + 1:10, 3, 10), sep = "-"),
+  Facility.ID = paste("Facility", substr(0.1E10 + 1:rows, 3, 10), sep = "-"),
   Outstanding = {set.seed(1001); rpois(rows, 1e3) * 1e3},
   Exposure    = {set.seed(1001); rpois(rows, 1e3) * 1e3},
   Loan.Currency = "USD",
-  Maturity.Date = Sys.Date() + as.integer({set.seed = 2001; rpois(rows, 52)} * 7 * 3),
+  Maturity.Date = Sys.Date() + as.integer({set.seed(2001); rpois(rows, 52)} * 7 * 3),
 
   Asset.ID = "",
   Asset.Name = "",
