@@ -14,13 +14,13 @@ process.generateTestLoanbook(name, country, industry,
 
 \item{industry}{Company NAICS code}
 
+\item{industry_desc}{Company NAICS description}
+
 \item{rows}{Number of loans to Generate. In case number is provided companies 
 will be randomly picked up using \code{sample} function with 
 \code{replace = T} property.}
 
 \item{seed}{Seed for rundom generation}
-
-\item{industry}{Company NAICS description}
 }
 \value{
 Loanbook data-frame with minimum required columnset
