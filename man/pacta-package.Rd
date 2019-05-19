@@ -8,6 +8,14 @@
 \description{
 R package to perform Paris Agreement Capital Transition Assessment for corporate lending portfolio including matching and analysis module.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/2DegreesInvesting/pacta}
+  \item Report bugs at \url{https://github.com/2DegreesInvesting/pacta/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Klaus Hogedorn \email{klaus@2degrees-investing.org}
 

@@ -29,3 +29,5 @@ Imports:
     stats
 VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
+URL: https://github.com/2DegreesInvesting/pacta
+BugReports: https://github.com/2DegreesInvesting/pacta/issues
