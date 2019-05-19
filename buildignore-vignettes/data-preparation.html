@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="author" content="Evgeny Petrovskiy" />
+
+<meta name="date" content="2019-05-19" />
+
+<title>Local data preparation</title>
+
+
+
+
+
+
+<style type="text/css">body {
+background-color: #fff;
+margin: 1em auto;
+max-width: 700px;
+overflow: visible;
+padding-left: 2em;
+padding-right: 2em;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.35;
+}
+#header {
+text-align: center;
+}
+#TOC {
+clear: both;
+margin: 0 0 10px 10px;
+padding: 4px;
+width: 400px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+background-color: #f6f6f6;
+font-size: 13px;
+line-height: 1.3;
+}
+#TOC .toctitle {
+font-weight: bold;
+font-size: 15px;
+margin-left: 5px;
+}
+#TOC ul {
+padding-left: 40px;
+margin-left: -1.5em;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#TOC ul ul {
+margin-left: -2em;
+}
+#TOC li {
+line-height: 16px;
+}
+table {
+margin: 1em auto;
+border-width: 1px;
+border-color: #DDDDDD;
+border-style: outset;
+border-collapse: collapse;
+}
+table th {
+border-width: 2px;
+padding: 5px;
+border-style: inset;
+}
+table td {
+border-width: 1px;
+border-style: inset;
+line-height: 18px;
+padding: 5px 5px;
+}
+table, table th, table td {
+border-left-style: none;
+border-right-style: none;
+}
+table thead, table tr.even {
+background-color: #f7f7f7;
+}
+p {
+margin: 0.5em 0;
+}
+blockquote {
+background-color: #f6f6f6;
+padding: 0.25em 0.75em;
+}
+hr {
+border-style: solid;
+border: none;
+border-top: 1px solid #777;
+margin: 28px 0;
+}
+dl {
+margin-left: 0;
+}
+dl dd {
+margin-bottom: 13px;
+margin-left: 13px;
+}
+dl dt {
+font-weight: bold;
+}
+ul {
+margin-top: 0;
+}
+ul li {
+list-style: circle outside;
+}
+ul ul {
+margin-bottom: 0;
+}
+pre, code {
+background-color: #f7f7f7;
+border-radius: 3px;
+color: #333;
+white-space: pre-wrap; 
+}
+pre {
+border-radius: 3px;
+margin: 5px 0px 10px 0px;
+padding: 10px;
+}
+pre:not([class]) {
+background-color: #f7f7f7;
+}
+code {
+font-family: Consolas, Monaco, 'Courier New', monospace;
+font-size: 85%;
+}
+p > code, li > code {
+padding: 2px 0px;
+}
+div.figure {
+text-align: center;
+}
+img {
+background-color: #FFFFFF;
+padding: 2px;
+border: 1px solid #DDDDDD;
+border-radius: 3px;
+border: 1px solid #CCCCCC;
+margin: 0 5px;
+}
+h1 {
+margin-top: 0;
+font-size: 35px;
+line-height: 40px;
+}
+h2 {
+border-bottom: 4px solid #f7f7f7;
+padding-top: 10px;
+padding-bottom: 2px;
+font-size: 145%;
+}
+h3 {
+border-bottom: 2px solid #f7f7f7;
+padding-top: 10px;
+font-size: 120%;
+}
+h4 {
+border-bottom: 1px solid #f7f7f7;
+margin-left: 8px;
+font-size: 105%;
+}
+h5, h6 {
+border-bottom: 1px solid #ccc;
+font-size: 105%;
+}
+a {
+color: #0033dd;
+text-decoration: none;
+}
+a:hover {
+color: #6666ff; }
+a:visited {
+color: #800080; }
+a:visited:hover {
+color: #BB00BB; }
+a[href^="http:"] {
+text-decoration: underline; }
+a[href^="https:"] {
+text-decoration: underline; }
+
+code > span.kw { color: #555; font-weight: bold; } 
+code > span.dt { color: #902000; } 
+code > span.dv { color: #40a070; } 
+code > span.bn { color: #d14; } 
+code > span.fl { color: #d14; } 
+code > span.ch { color: #d14; } 
+code > span.st { color: #d14; } 
+code > span.co { color: #888888; font-style: italic; } 
+code > span.ot { color: #007020; } 
+code > span.al { color: #ff0000; font-weight: bold; } 
+code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61717; background-color: #e3d2d2; } 
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<h1 class="title toc-ignore">Local data preparation</h1>
+<h4 class="author">Evgeny Petrovskiy</h4>
+<h4 class="date">2019-05-19</h4>
+
+
+
+<p>Local data prepoaration is first and important step in loan portfolio alignment analysis. Standard workflow sets minimum requirements for data provided by institution. This minimum set of attributes makes matching and analysis possible. Requirements define set of necessary attributes, their names and values (for some of them).</p>
+<div id="process-overview" class="section level2">
+<h2>Process overview</h2>
+<p>Data preparation process consists of 2 parts:</p>
+<ol style="list-style-type: decimal">
+<li><strong>unify local data</strong> - prepare local loanbook data for processing;</li>
+<li><strong>obtain global data</strong> in proper format.</li>
+</ol>
+<p>Process overview is represented in below diagram.</p>
+<div class="figure">
+<img src="data:image/png;base64,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" alt="Data preparation process" />
+<p class="caption">Data preparation process</p>
+</div>
+<p>As a result of local data unification process local loanbook should contain attributes in a standard format. Obtained global data should also be standardized. Below you will find detailed description.</p>
+</div>
+<div id="loanbook-structure" class="section level2">
+<h2>Loanbook structure</h2>
+<p><em>It is responsibility of institution to produce loanbook dataset of correct structure.</em></p>
+<p>After completion of <strong>unify local data</strong> process there should be loanbook produced with a set of standard attributes of a specified format. It still can contain all original attributes (no restrictions) among standard ones. Level of granularity for local data should be contract level. Required atrtributes and their purpose are described in below table.</p>
+<table>
+<colgroup>
+<col width="25%"></col>
+<col width="74%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reporting Date</td>
+<td>Reporting date in <code>YYYY-MM-DD</code> format; defines point in time described by orther data</td>
+</tr>
+<tr class="even">
+<td>Loan Size</td>
+<td>Loan Size, charateristic that includes unused limit, available for withdrawal and current outstanding</td>
+</tr>
+<tr class="odd">
+<td>Outstanding</td>
+<td>Current contract outstanding</td>
+</tr>
+<tr class="even">
+<td>Credit Limit</td>
+<td>Original credit limit</td>
+</tr>
+<tr class="odd">
+<td>Maturity Date</td>
+<td>Maturity date of contract - when it is expected to be repayed</td>
+</tr>
+<tr class="even">
+<td>Sector Classification</td>
+<td>Sector classification according to 2Dii (see Appendix)</td>
+</tr>
+<tr class="odd">
+<td><em>Asset ID</em></td>
+<td><em>Value that identifies asset which is funded by loan. It can be internal code or number or even name.</em></td>
+</tr>
+<tr class="even">
+<td><em>Asset Name</em></td>
+<td><em>Name of Asset</em></td>
+</tr>
+<tr class="odd">
+<td>Borrower ID</td>
+<td>Value that identifies Borrower. It can be internal code or number or even name. It is up to institution to decide what value to use, but value must porsent</td>
+</tr>
+<tr class="even">
+<td>Borrower Name</td>
+<td>Name of Borrower - party that receives loan from institution</td>
+</tr>
+<tr class="odd">
+<td>Borrower Country</td>
+<td>Country Name (not code) of residence (or incorproration)?</td>
+</tr>
+<tr class="even">
+<td>Borrower NAICS</td>
+<td>Borrower’s 6-digit NAICS industry code</td>
+</tr>
+<tr class="odd">
+<td>Borrower NAICS Description</td>
+<td>NAICS economic activity description</td>
+</tr>
+<tr class="even">
+<td><em>LUP ID</em></td>
+<td><em>Legal Ultimate Parent (L.U.P.) ID</em></td>
+</tr>
+<tr class="odd">
+<td><em>LUP Name</em></td>
+<td><em>Legal Ultimate Parent (L.U.P.) name</em></td>
+</tr>
+<tr class="even">
+<td><em>LUP Country</em></td>
+<td><em>Legal Ultimate Parent (L.U.P.) Country name</em></td>
+</tr>
+<tr class="odd">
+<td><em>EUP ID</em></td>
+<td><em>Economic Ultimate Parent (E.U.P.) ID</em></td>
+</tr>
+<tr class="even">
+<td><em>EUP Name</em></td>
+<td><em>Economic Ultimate Parent (E.U.P.) name</em></td>
+</tr>
+<tr class="odd">
+<td><em>EUP Country</em></td>
+<td><em>Economic Ultimate Parent (E.U.P.) Country name</em></td>
+</tr>
+</tbody>
+</table>
+<p>Attributes listed above must present in a data set as a result of local data preparation. Attributes which names are written in <em>italic</em> are optional and may contain empty values.</p>
+</div>
+<div id="deriving-sector-classification" class="section level2">
+<h2>Deriving Sector Classification</h2>
+<p>One can derive value for <code>Sector Classification</code> attribute of loanbook based on given industry codes and set of rules. There is specific function <code>convert.naics2sc(naics, rules)</code> that can analyze NAICS code(s) and based on rules from <code>naics2sc.rules</code> return Sector Clsassification(s) as a result.</p>
+</div>
+<div id="global-data-structure" class="section level2">
+<h2>Global data structure</h2>
+<p>Global data includes following references, forecasts, scenarios. Overview of data entities is given below.</p>
+<table>
+<colgroup>
+<col width="25%"></col>
+<col width="74%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ald-asset.csv</td>
+<td>Information about assets and their owners</td>
+</tr>
+<tr class="even">
+<td>ald-value.csv</td>
+<td>Information about values associated with assets (e.g. capacity by years)</td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+<p>Global data is coming in processing-compatible format.</p>
+</div>
+<div id="result" class="section level2">
+<h2>Result</h2>
+<p>As a result of this process all data should be collected for further processing.</p>
+</div>
+<div id="appendices" class="section level2">
+<h2>Appendices</h2>
+</div>
+<div id="appendix-1.-sector-classification" class="section level2">
+<h2>Appendix 1. Sector Classification</h2>
+<p>Sector is a taxonomy for economic activities funded with loans. This classification includes:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Sector classification</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Automotive</td>
+<td>Automotive - cars and trucks production</td>
+</tr>
+<tr class="even">
+<td>Aviation</td>
+<td>Transportation - Aviation</td>
+</tr>
+<tr class="odd">
+<td>Cement</td>
+<td>Cement &amp; Other Building Materials</td>
+</tr>
+<tr class="even">
+<td>Fossil fuels</td>
+<td>Oil and Gas upstream; Coal mining</td>
+</tr>
+<tr class="odd">
+<td>Power</td>
+<td>Electricity generation</td>
+</tr>
+<tr class="even">
+<td>Shipping</td>
+<td>Transportation - Shipping</td>
+</tr>
+<tr class="odd">
+<td>Steel</td>
+<td>Steel production</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
