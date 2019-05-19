@@ -31,6 +31,9 @@ check.ds_cols <- function(ds_name, ds_col_names) {
 #' @param ds_col_names vector of Dataset columns
 get.ds_missing_cols <- function(ds_name, ds_col_names) {
   requirements <- subset(
+    # FIXME: 
+    # `pacta::dataset.req.attrs` does not exist.
+    # Do you mean `pacta::data.dataset.req.attrs`?
     pacta::dataset.req.attrs,
     Dataset == ds_name
   )
