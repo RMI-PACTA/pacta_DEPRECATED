@@ -14,7 +14,8 @@ Suggests:
     testthat,
     knitr,
     rmarkdown,
-    covr
+    covr,
+    roxygen2
 Imports:
     stringdist,
     stringi,
@@ -22,5 +23,6 @@ Imports:
     magrittr,
     dplyr,
     tidyr,
-    tibble
+    tibble,
+    rlang (>= 0.1.2)
 VignetteBuilder: knitr
