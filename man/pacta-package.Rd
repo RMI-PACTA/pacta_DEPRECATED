@@ -6,7 +6,9 @@
 \alias{pacta-package}
 \title{pacta: Paris Agreement Capital Transition Assessment}
 \description{
-R package to perform Paris Agreement Capital Transition Assessment for corporate lending portfolio including matching and analysis module.
+R package to perform Paris Agreement Capital
+    Transition Assessment for corporate lending portfolio including
+    matching and analysis module.
 }
 \seealso{
 Useful links:
