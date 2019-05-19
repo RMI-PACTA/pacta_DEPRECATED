@@ -4,29 +4,29 @@
 \name{data.test.loanbook}
 \alias{data.test.loanbook}
 \title{Test loanbook}
-\format{dataset represents basic structure neccessary for generic workflow 
-\describe{ 
-  \item{Source}{Source of information}
-  \item{Reporting.Date}{Reporting Date}
-  \item{Facility.ID}{Credit Facility Identification}
-  \item{Outstanding}{Outstanding Amount in Reporting Currency}
-  \item{Exposure}{Credit Limit Exposure}
-  \item{Loan.Currency}{Original Currency}
-  \item{Maturity.Date}{Maturity Date}
-  \item{Asset.ID}{Asset Identification}
-  \item{Asset.Name}{Asset Name}
-  \item{Borrower.ID}{Borrower Identification}
-  \item{Borrower.Name}{Borrower Name}
-  \item{Borrower.Country}{Borrower Country}
-  \item{Borrower.NAICS}{Borrower NAICS Code}
-  \item{Borrower.NAICS.Description}{Borrower NAICS Inductry Description}
-  \item{Sector.Classification}{Loan Sector Classification according to 2dii}
-  \item{Ultimate.Parent.ID}{Ultimate Parent Identification}
-  \item{Ultimate.Parent.Name}{Ultimate Parent Name}
-  \item{Ultimate.Parent.Country}{Ultimate Parent Country}
-  \item{Ultimate.Parent.NAICS}{Ultimate Parent NAICS Code}
-  \item{Ultimate.Parent.NAICS.Description}{Ultimate Parent NAICS Inductry Description}
-  }}
+\format{dataset represents basic structure neccessary for generic workflow
+\describe{
+\item{Source}{Source of information}
+\item{Reporting.Date}{Reporting Date}
+\item{Facility.ID}{Credit Facility Identification}
+\item{Outstanding}{Outstanding Amount in Reporting Currency}
+\item{Exposure}{Credit Limit Exposure}
+\item{Loan.Currency}{Original Currency}
+\item{Maturity.Date}{Maturity Date}
+\item{Asset.ID}{Asset Identification}
+\item{Asset.Name}{Asset Name}
+\item{Borrower.ID}{Borrower Identification}
+\item{Borrower.Name}{Borrower Name}
+\item{Borrower.Country}{Borrower Country}
+\item{Borrower.NAICS}{Borrower NAICS Code}
+\item{Borrower.NAICS.Description}{Borrower NAICS Inductry Description}
+\item{Sector.Classification}{Loan Sector Classification according to 2dii}
+\item{Ultimate.Parent.ID}{Ultimate Parent Identification}
+\item{Ultimate.Parent.Name}{Ultimate Parent Name}
+\item{Ultimate.Parent.Country}{Ultimate Parent Country}
+\item{Ultimate.Parent.NAICS}{Ultimate Parent NAICS Code}
+\item{Ultimate.Parent.NAICS.Description}{Ultimate Parent NAICS Inductry Description}
+}}
 \usage{
 data.test.loanbook
 }

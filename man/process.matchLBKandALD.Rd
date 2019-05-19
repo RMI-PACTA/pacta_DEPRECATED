@@ -7,7 +7,7 @@
 process.matchLBKandALD(lbk4match, ald4match)
 }
 \arguments{
-\item{lbk4match}{data frame prepared with \link{process.prepLBK4match} 
+\item{lbk4match}{data frame prepared with \link{process.prepLBK4match}
 function}
 
 \item{ald4match}{data frame prepared with \link{process.prepALD4match}
@@ -15,9 +15,9 @@ function}
 }
 \value{
 function returns bridge file produced by \link{matchNamesByBlocks}
-  function
+function
 }
 \description{
-function that matches loanbook data (prepared for matching) 
-  and asset level data (prepared)
+function that matches loanbook data (prepared for matching)
+and asset level data (prepared)
 }

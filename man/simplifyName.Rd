@@ -11,10 +11,10 @@ simplifyName(name, cut.ownership = FALSE,
 \arguments{
 \item{name}{text string to simplify}
 
-\item{cut.ownership}{flag that defines whether ownership type (like llc) 
+\item{cut.ownership}{flag that defines whether ownership type (like llc)
 should be cut-off from name during simplification}
 
-\item{reduction}{data frame with reduction rules to be applied, contains 
+\item{reduction}{data frame with reduction rules to be applied, contains
 columns From (for initial values) and To (for resulting values)}
 
 \item{ownership}{vector of company ownership types to be disctinguished

@@ -14,5 +14,5 @@ completeness}
 }
 \description{
 Procedure returns NULL if dataset complete or raises error if
-  required columns are missing
+required columns are missing
 }

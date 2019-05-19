@@ -7,14 +7,18 @@
 is_null(x, y)
 }
 \arguments{
-\item{x}{- vector of main values}
+\item{x}{\itemize{
+\item vector of main values
+}}
 
-\item{y}{- vector of alternative values (if main value is empty)}
+\item{y}{\itemize{
+\item vector of alternative values (if main value is empty)
+}}
 }
 \value{
 Either main value (if it is not NA) or alternative value
 }
 \description{
-Function checks if provided value is NA and replaces it 
+Function checks if provided value is NA and replaces it
 with alternative value
 }

@@ -10,6 +10,6 @@ match.score.threshold
 }
 \description{
 threshold score - it is used for filtering out all match results
-  which are below thresold level.
+which are below thresold level.
 }
 \keyword{datasets}

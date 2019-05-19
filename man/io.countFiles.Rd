@@ -13,5 +13,5 @@ io.countFiles(path, pattern)
 }
 \description{
 function counts files by given file-name pattern in specific
-  folder.
+folder.
 }

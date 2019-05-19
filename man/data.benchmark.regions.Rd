@@ -5,40 +5,40 @@
 \alias{data.benchmark.regions}
 \title{Benchmark regions}
 \format{a list of following pairs of vectors \describe{
-  \item{BenchRegions, BenchRegions_ISO_colnames}{Set of benchmark regions}
-  \item{Global, Global_ISO}{Global region}
-  \item{Africa, Afrika_ISO}{Africa}
-  \item{Brazil, Brazil_ISO}{Brazil}
-  \item{China, China_ISO}{China}
-  \item{EEurope_Eurasia, EEurope_Eurasia_ISO}{Eastern Europe and Eurasia}
-  \item{EU, EU_ISO}{Europe}
-  \item{India, India_ISO}{India}
-  \item{Japan, Japan_ISO}{Japan}
-  \item{LatinAmerica, LatinAmerica_ISO}{Latin America}
-  \item{MiddleEast, MiddleEast_ISO}{Middle East}
-  \item{NonOECD, NonOECD_ISO}{non-OECD countries}
-  \item{NonOECDAsia, NonOECDAsia_ISO}{non-OECD countries of Asia}
-  \item{OECD, OECD_ISO}{OECD countries}
-  \item{OECDAmericas, OECDAmericas_ISO}{OECD countries of Americas}
-  \item{OECDAsiaOceania, OECDAsiaOceania_ISO}{OECD countries of Asia and Oceania}
-  \item{OECDEurope, OECDEurope_ISO}{OECD countries of Europe}
-  \item{Russia, Russia_ISO}{Russia}
-  \item{SouthAfrica, SouthAfrica_ISO}{South Africa}
-  \item{US, US_ISO}{United States of America}
-  \item{OECDAsiaOceaniaWoJP, OECDAsiaOceaniaWoJP_ISO}{OECD countries of Asia and Oceania wihout Japan}
-  \item{OECDAmericasWoUS, OECDAmericasWoUS_ISO}{OECD countries of Americas without US}
-  \item{LatinAmericaWoBR, LatinAmericaWoBR_ISO}{Latin America without Brazil}
-  \item{AfricaWoZA, AfricaWoZA_ISO}{Africa without South Africa}
-  \item{EEurope_EurasiaWoRU, EEurope_EurasiaWoRU_ISO}{Eastern Europe and Eurasia without Russia}
-  \item{NonOECDAsiaRest, NonOECDAsiaRest_ISO}{non-OECD countries of Asia - the rest}
-  \item{NonOECDRest, NonOECDRest_ISO}{non-OECD countries - the rest}
+\item{BenchRegions, BenchRegions_ISO_colnames}{Set of benchmark regions}
+\item{Global, Global_ISO}{Global region}
+\item{Africa, Afrika_ISO}{Africa}
+\item{Brazil, Brazil_ISO}{Brazil}
+\item{China, China_ISO}{China}
+\item{EEurope_Eurasia, EEurope_Eurasia_ISO}{Eastern Europe and Eurasia}
+\item{EU, EU_ISO}{Europe}
+\item{India, India_ISO}{India}
+\item{Japan, Japan_ISO}{Japan}
+\item{LatinAmerica, LatinAmerica_ISO}{Latin America}
+\item{MiddleEast, MiddleEast_ISO}{Middle East}
+\item{NonOECD, NonOECD_ISO}{non-OECD countries}
+\item{NonOECDAsia, NonOECDAsia_ISO}{non-OECD countries of Asia}
+\item{OECD, OECD_ISO}{OECD countries}
+\item{OECDAmericas, OECDAmericas_ISO}{OECD countries of Americas}
+\item{OECDAsiaOceania, OECDAsiaOceania_ISO}{OECD countries of Asia and Oceania}
+\item{OECDEurope, OECDEurope_ISO}{OECD countries of Europe}
+\item{Russia, Russia_ISO}{Russia}
+\item{SouthAfrica, SouthAfrica_ISO}{South Africa}
+\item{US, US_ISO}{United States of America}
+\item{OECDAsiaOceaniaWoJP, OECDAsiaOceaniaWoJP_ISO}{OECD countries of Asia and Oceania wihout Japan}
+\item{OECDAmericasWoUS, OECDAmericasWoUS_ISO}{OECD countries of Americas without US}
+\item{LatinAmericaWoBR, LatinAmericaWoBR_ISO}{Latin America without Brazil}
+\item{AfricaWoZA, AfricaWoZA_ISO}{Africa without South Africa}
+\item{EEurope_EurasiaWoRU, EEurope_EurasiaWoRU_ISO}{Eastern Europe and Eurasia without Russia}
+\item{NonOECDAsiaRest, NonOECDAsiaRest_ISO}{non-OECD countries of Asia - the rest}
+\item{NonOECDRest, NonOECDRest_ISO}{non-OECD countries - the rest}
 }}
 \usage{
 data.benchmark.regions
 }
 \description{
-Different world regions described in terms of regions and countries. 
-Data contains lists of vectors, vectors represented in pairs of 
+Different world regions described in terms of regions and countries.
+Data contains lists of vectors, vectors represented in pairs of
 Long Names (e.g. Country name) and ISO codes (Country ISO 2-char code)
 }
 \keyword{datasets}

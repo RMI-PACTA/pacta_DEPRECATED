@@ -5,9 +5,9 @@
 \alias{data.dataset.req.attrs}
 \title{Required Dataset columns}
 \format{\describe{
-  \item{Dataset}{Dataset name (as it is called in \link{data.dataset.req.files})}
-  \item{Attribute}{Exact process that requires data}
-  \item{Purpose}{Required dataset name}
+\item{Dataset}{Dataset name (as it is called in \link{data.dataset.req.files})}
+\item{Attribute}{Exact process that requires data}
+\item{Purpose}{Required dataset name}
 }}
 \usage{
 data.dataset.req.attrs

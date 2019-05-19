@@ -7,7 +7,9 @@
 is_empty(x)
 }
 \arguments{
-\item{x}{- vector of values for check}
+\item{x}{\itemize{
+\item vector of values for check
+}}
 }
 \value{
 Logical value TRUE or FALSE; if input value is vector then function

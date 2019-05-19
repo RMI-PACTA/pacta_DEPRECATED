@@ -31,7 +31,7 @@ io.file.write <- function(v, f, k) {
 #'
 #' @param file path to data; by default it is path to file (without extension)
 #'   where data is stored
-#' @param ... parameters of \code{read.csv} function
+#' @param ... parameters of `read.csv` function
 io.import.csv <- function(file, ...) {
   k <- file
   f <- function(k) {
@@ -99,14 +99,14 @@ io.save <- function(value, key) {
 #'
 #' @description Supplementary function that calculates dynamic path to file
 #'   based on preserved names. It supposed to work together with
-#'   link{data.dataset.req.files} where Location is passed into \code{location}
+#'   link{data.dataset.req.files} where Location is passed into `location`
 #'   parameter.
 #'
 #' @export
 #'
 #' @param location input parameterized path, for example "Location" attribute 
 #'   from \link{data.dataset.req.files} data frame.
-#' @param config configuration from yml file, returned by \code{config::get} method
+#' @param config configuration from yml file, returned by `config::get` method
 io.getPath <- function(location, config) {
   datestr <- as.Date(config$workflow$date) %>% strftime(format = "%Y-%m-%d")
   data.input <- ifelse(

@@ -28,3 +28,4 @@ Imports:
     utils,
     stats
 VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)

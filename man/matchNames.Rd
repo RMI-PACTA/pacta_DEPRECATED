@@ -7,25 +7,33 @@
 matchNames(names, dictionary, threshold = 0.95, return = "closest")
 }
 \arguments{
-\item{names}{- name to compare against dictionary}
+\item{names}{\itemize{
+\item name to compare against dictionary
+}}
 
-\item{dictionary}{- set of plausible values to chose from}
+\item{dictionary}{\itemize{
+\item set of plausible values to chose from
+}}
 
-\item{threshold}{- threshold value, minimum score to filter out results with
-lower score}
+\item{threshold}{\itemize{
+\item threshold value, minimum score to filter out results with
+lower score
+}}
 
-\item{return}{- what values to return from c("closest", "all"). Return type 
-"closest" works much faster and returns only 1 match per name with highest 
-score.}
+\item{return}{\itemize{
+\item what values to return from c("closest", "all"). Return type
+"closest" works much faster and returns only 1 match per name with highest
+score.
+}}
 }
 \value{
 Function returns dataframe with columns \code{Name},
-  \code{Dictionary}, \code{Score}. Number of rows in dataframe depends on
-  number of names and number of mathces that have a score higher than the
-  threshold
+\code{Dictionary}, \code{Score}. Number of rows in dataframe depends on
+number of names and number of mathces that have a score higher than the
+threshold
 }
 \description{
 Function compares given name with elements of dictionary,
-  callculates simiarity scores and returns result in data.frame format.
-  Matching results might be optionally filtered according to threshold value
+callculates simiarity scores and returns result in data.frame format.
+Matching results might be optionally filtered according to threshold value
 }

@@ -51,8 +51,8 @@ get.ds_missing_cols <- function(ds_name, ds_col_names) {
 #' Substitute parts of string
 #' 
 #' @param str string to modify
-#' @param subs list of substitutions in format \code{list(name = value)}
-#'   where \code{name} is pattern and \code{value} is replacement.
+#' @param subs list of substitutions in format `list(name = value)`
+#'   where `name` is pattern and `value` is replacement.
 susbtitute.string <- function(str, subs) {
   new_val <- Reduce(
     f = function(z, x) {

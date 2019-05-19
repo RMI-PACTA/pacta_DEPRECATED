@@ -7,7 +7,9 @@
 trim(x)
 }
 \arguments{
-\item{x}{- character string}
+\item{x}{\itemize{
+\item character string
+}}
 }
 \value{
 character trimmed string

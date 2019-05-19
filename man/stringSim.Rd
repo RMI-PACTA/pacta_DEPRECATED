@@ -7,16 +7,20 @@
 stringSim(string, dictionary)
 }
 \arguments{
-\item{string}{- value to compare against dictionary}
+\item{string}{\itemize{
+\item value to compare against dictionary
+}}
 
-\item{dictionary}{- set of plausible values to chose from}
+\item{dictionary}{\itemize{
+\item set of plausible values to chose from
+}}
 }
 \value{
 Vector of numeric values between 0 and 1 where 0 - lowest similarity
-  and 1 - highest. Vector length is the same as dictionary length. Similarity
-  scores ordered in the same order as dictionary elements.
+and 1 - highest. Vector length is the same as dictionary length. Similarity
+scores ordered in the same order as dictionary elements.
 }
 \description{
 Function identifies similarity between provided string and
-  vector of strings called dictionary.
+vector of strings called dictionary.
 }

@@ -9,7 +9,7 @@
 match.score.perfect
 }
 \description{
-Perfect score - it is used for splitting match results 
-  into perfect and thise which require verification
+Perfect score - it is used for splitting match results
+into perfect and thise which require verification
 }
 \keyword{datasets}

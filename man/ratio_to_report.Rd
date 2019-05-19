@@ -13,11 +13,11 @@ ratio_to_report(x, na.rm = FALSE)
 }
 \description{
 function returns vector where each element represents weight of
-  original value. If sum of original values equal to 0 then result will
-  contain NA values. Please be aware that function may return unexpected
-  result when values in vector are of different sign and sum of them almost
-  equal to zero (e.g. \code{ratio_to_report(c(1, 2, 3, -6.00000001))} will
-  return very big numbers).
+original value. If sum of original values equal to 0 then result will
+contain NA values. Please be aware that function may return unexpected
+result when values in vector are of different sign and sum of them almost
+equal to zero (e.g. \code{ratio_to_report(c(1, 2, 3, -6.00000001))} will
+return very big numbers).
 }
 \examples{
 pacta::ratio_to_report(c(1, 2, 3, NA, 5), na.rm = TRUE)

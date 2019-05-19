@@ -13,6 +13,6 @@ io.getMissingFileAttr(file, ds_name)
 requirements}
 }
 \description{
-Function returns vector of missing attributes in a file which 
-  are necessary for processing
+Function returns vector of missing attributes in a file which
+are necessary for processing
 }

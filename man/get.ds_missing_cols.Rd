@@ -13,6 +13,6 @@ get.ds_missing_cols(ds_name, ds_col_names)
 }
 \description{
 Function returns vector of missing columns (among given columns
-  as an input parameter) in a given dataset. If all columns are present then
-  function returns empty vector. Requirements are taken from packages internal dataset \link{data.dataset.req.attrs}
+as an input parameter) in a given dataset. If all columns are present then
+function returns empty vector. Requirements are taken from packages internal dataset \link{data.dataset.req.attrs}
 }

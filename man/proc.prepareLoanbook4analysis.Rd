@@ -22,5 +22,5 @@ rows in loanbook.}
 }
 \description{
 Function adds columns necessary for analysis based on input
-  attribute values
+attribute values
 }

@@ -7,12 +7,14 @@
 dup.test(x)
 }
 \arguments{
-\item{x}{- input vector of values}
+\item{x}{\itemize{
+\item input vector of values
+}}
 }
 \value{
-vector of logical values, 
-  TRUE - element present more than once, 
-  FALSE - element is unique
+vector of logical values,
+TRUE - element present more than once,
+FALSE - element is unique
 }
 \description{
 Function tests if vector of values and returns another vector of

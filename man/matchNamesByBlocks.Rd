@@ -8,27 +8,39 @@ matchNamesByBlocks(names, nblocks, dictionary, dblocks, threshold = 0.95,
   return = "closest")
 }
 \arguments{
-\item{names}{- name to compare against dictionary}
+\item{names}{\itemize{
+\item name to compare against dictionary
+}}
 
-\item{nblocks}{- vector that specifies blocks for names; should have the same
-length as names}
+\item{nblocks}{\itemize{
+\item vector that specifies blocks for names; should have the same
+length as names
+}}
 
-\item{dictionary}{- set of plausible values to chose from}
+\item{dictionary}{\itemize{
+\item set of plausible values to chose from
+}}
 
-\item{dblocks}{- vector that specifies blocks for dictionary elements; should
-have the same length as names}
+\item{dblocks}{\itemize{
+\item vector that specifies blocks for dictionary elements; should
+have the same length as names
+}}
 
-\item{threshold}{- threshold value, minimum score to filter out results with}
+\item{threshold}{\itemize{
+\item threshold value, minimum score to filter out results with
+}}
 
-\item{return}{- what values to return from c("closest", "all"). Return type 
-"closest" works much faster and returns only 1 match per name with highest 
-score.}
+\item{return}{\itemize{
+\item what values to return from c("closest", "all"). Return type
+"closest" works much faster and returns only 1 match per name with highest
+score.
+}}
 }
 \value{
 dataframe of structure described as result of \link{matchNames}
-  function, extended with \code{Segment} column that represents block.
+function, extended with \code{Segment} column that represents block.
 }
 \description{
 split names and dictionary values into blocks and make matching
-  within corresponding blocks
+within corresponding blocks
 }

@@ -9,7 +9,7 @@
 data.ownership.types
 }
 \description{
-Vector of company ownership types (like PLC, LLC, etc) is used to distinguish 
+Vector of company ownership types (like PLC, LLC, etc) is used to distinguish
 ownership type in company name during simplification.
 }
 \keyword{datasets}

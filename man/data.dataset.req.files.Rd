@@ -5,14 +5,14 @@
 \alias{data.dataset.req.files}
 \title{Required data files}
 \format{\describe{
-  \item{Stage}{Processing stage}
-  \item{Process}{Exact process that requires data}
-  \item{Dataset}{Required dataset name}
-  \item{Location}{Dataset location (where it is stored as a file). Some 
-    parametrization is available to define DataInput, Data, Results folders 
-    ({data-input}, {data-temp}, {data-result} respectively)}
-  \item{File Name Pattern}{File name pattern}
-  \item{Comment}{}
+\item{Stage}{Processing stage}
+\item{Process}{Exact process that requires data}
+\item{Dataset}{Required dataset name}
+\item{Location}{Dataset location (where it is stored as a file). Some
+parametrization is available to define DataInput, Data, Results folders
+({data-input}, {data-temp}, {data-result} respectively)}
+\item{File Name Pattern}{File name pattern}
+\item{Comment}{}
 }}
 \usage{
 data.dataset.req.files

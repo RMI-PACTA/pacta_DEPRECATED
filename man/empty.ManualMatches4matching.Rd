@@ -7,6 +7,6 @@
 empty.ManualMatches4matching()
 }
 \description{
-Function defines data frame structure for the manual matches data 
+Function defines data frame structure for the manual matches data
 added to the automatically generated matches
 }

@@ -7,15 +7,17 @@
 process.prepALD4match(ald)
 }
 \arguments{
-\item{ald}{- asset level data according to structure returned by
-\link{empty.ALD4mathcing} function}
+\item{ald}{\itemize{
+\item asset level data according to structure returned by
+\link{empty.ALD4mathcing} function
+}}
 }
 \value{
-data.frame with column set: 
+data.frame with column set:
 Level, ID, OriginalValue, MatchValue, SectorClassification
 }
 \description{
-function that prepares asset level data for matching. It 
-takes assets from ald database and produces dataframe of universal 
+function that prepares asset level data for matching. It
+takes assets from ald database and produces dataframe of universal
 structure for matching.
 }
