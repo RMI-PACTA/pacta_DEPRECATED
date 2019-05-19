@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pacta
+# <img src="https://i.imgur.com/3jITMq8.png" align="right" height=88 /> pacta
 
 <!-- badges: start -->
 

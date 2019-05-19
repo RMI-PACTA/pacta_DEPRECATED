@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# pacta
+# <img src="https://i.imgur.com/3jITMq8.png" align="right" height=40 /> pacta
 
 <!-- badges: start -->
 [![Build Status](https://travis-ci.com/2DegreesInvesting/pacta.svg?token=2zLsWyJspq4x2F3gWvyf&branch=master)](https://travis-ci.com/2DegreesInvesting/pacta)
