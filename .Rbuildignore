@@ -4,3 +4,4 @@
 ^data-raw$
 ^CONTRIBUTING\.md$
 ^\.travis\.yml$
+^README\.Rmd$
