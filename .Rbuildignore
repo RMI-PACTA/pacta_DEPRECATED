@@ -1,3 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^buildignore-vignettes$
+^data-raw$
+^CONTRIBUTING\.md$
+^\.travis\.yml$
