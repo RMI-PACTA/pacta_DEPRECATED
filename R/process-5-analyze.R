@@ -169,7 +169,7 @@ analyze.meta.LoanbookMatches <- function(loanbook, ald.master) {
 
   ald <- 
     ald.master %>% 
-    dplyr::select(ALD.Level, Name, Sector) %>%
+    dplyr::select(.data$ALD.Level, .data$Name, .data$Sector) %>%
     unique() %>%
     dplyr::mutate(Analysis.Matched = 1)
 
