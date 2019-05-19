@@ -4,10 +4,14 @@ language: R
 sudo: false
 cache: packages
 
-# Code coverage for R: see example at https://github.com/codecov/example-r
-
-r_packages:
-  - covr
-
-after_success:
-  - Rscript -e 'library("covr"); codecov()'
+matrix:
+  include:
+    - r: devel
+    - r: release
+      # Code coverage for R: see example at https://github.com/codecov/example-r
+      after_success:
+        - Rscript -e 'library("covr"); codecov()'
+    - r: oldrel
+  allow_failures:
+    - r: devel
+    - r: oldrel
