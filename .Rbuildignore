@@ -1,6 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^buildignore-vignettes$
 ^data-raw$
 ^CONTRIBUTING\.md$
 ^\.travis\.yml$
@@ -10,3 +9,4 @@
 ^pkgdown$
 ^LICENSE\.md$
 ^vignettes/siteonly$
+^\.buildignore$
