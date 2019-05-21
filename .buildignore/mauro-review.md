@@ -1,84 +1,80 @@
-Review
+Suggestions
 ================
 Mauro Lepore (<maurolepore@gmail.com>)
-Last updated on 2019-05-21
 
-See
-[review](https://github.com/maurolepore/pacta/blob/mauro-review/.buildignore/mauro-review.md).
+#### Automate the development process with the [usethis](https://usethis.r-lib.org/) packages.
 
-### General suggestions
+<img src="https://i.imgur.com/Fd8zZ6N.png" align="center" width=500 />
 
-  - Automate the development process with the
-    [usethis](https://usethis.r-lib.org/) packages. The first version of
-    the [R packages](http://r-pkgs.had.co.nz/) book was published before
-    usethis existed. The [work-in-progress version of that
-    book](https://r-pkgs.org) uses usethis. See also the [Tidyverse
-    design principles](https://principles.tidyverse.org/).
+#### Consider developing a developer-facing package to provide templates. [Example](https://forestgeo.github.io/fgeo.template/):
 
-  - Prefer this style guide: <https://style.tidyverse.org/>. For
-    example, avoid `.` in object names::
+    #> C:/Users/LeporeM/Documents/Dropbox/Temp/twodii/pacta/../../../git/fgeo.template/inst/templates
+    #> +-- ca.sh
+    #> +-- cm.sh
+    #> +-- CODE_OF_CONDUCT.md
+    #> +-- compat-lifecycle.R
+    #> +-- CONTRIBUTING.md
+    #> +-- cran-comments.md
+    #> +-- github_document.Rmd
+    #> +-- ISSUE_TEMPLATE.md
+    #> +-- README.md
+    #> +-- README.Rmd
+    #> +-- rmarkdown_template.Rmd
+    #> +-- ru.sh
+    #> +-- stale.yml
+    #> +-- SUPPORT.md
+    #> +-- travis.yml
+    #> \-- _pkgdown.yml
 
-> Base R uses dots in function names (contrib.url()) and class names
-> (data.frame), but it’s better to reserve dots exclusively for the S3
-> object system. In S3, methods are given the name function.class; if
-> you also use . in function and class names, you end up with confusing
-> methods like as.data.frame.data.frame().
-> –<https://style.tidyverse.org/syntax.html#object-names>
+#### Consider using checklists to standardize processes that aren’t easy to capture in code
 
-  - On TravisCI, check with multiple versions of R (at least devel,
-    release, and oldrel).
+  - [“Checklist” to build R
+    packages](https://fgeo.netlify.com/2018/03/28/2018-03-28-building-infrastructure-for-r-packages-with-usethis/).
+    Example:
 
-  - Write documentation with users in mind, not developers:
+<!-- end list -->
+
+    use_readme_rmd()
+    # Or
+    # use_template(template = "<file>", package = "<package>")
     
-      - Usually there are more users than developers.
-      - Development details (e.g. use devtools and roxygen2) should be
-        irrelevant to using a package.
-      - Developers should be familiar with standard development
-        practices. If needed, details should be provided in dedicated
-        developer-facing documentation.
+    use_cran_badge()
+    use_tidy_coc()
+    use_news_md()
+    use_tidy_contributing()
+    use_tidy_issue_template()
+    use_tidy_support()
+    use_github_labels(delete_default = TRUE)
 
-  - Consider using the standard README template, as provided via
-    `usethis::use_readme_rmd()`.
+  - [Checklist to release a package to
+    CRAN](https://github.com/forestgeo/learn/issues/212)
 
-  - Consider developing a developer-facing package to provide templates
-    ([example](https://forestgeo.github.io/fgeo.template/)).
+<img src="https://i.imgur.com/tIz09qu.png" align="center" width=500 />
 
-  - Enable rmarkdown syntax in the documentation via the
-    [roxygen2md](https://github.com/r-lib/roxygen2md) package.
+##### Create a package for examples, tests, and to share public data. ([Example](https://forestgeo.github.io/fgeo.x/)):
 
-  - Build websites for all user-facing packages
-    ([pkdown](https://pkgdown.r-lib.org/))
-    ([example](https://forestgeo.github.io/fgeo/)).
+<img src="https://i.imgur.com/u4YeVYr.png" align="center" width=500 />
 
-  - Consider using checklists to standardize processes that aren’t easy
-    to capture in code:
-    
-      - [Checklist to build R
-        packages](https://fgeo.netlify.com/2018/03/28/2018-03-28-building-infrastructure-for-r-packages-with-usethis/)
-      - [Checklist to release a package to
-        CRAN](https://github.com/forestgeo/learn/issues/212)
+#### On TravisCI, check with multiple versions of R (at least devel, release, and oldrel).
 
-  - Make it easy to find useful resources
-    ([example](https://github.com/forestgeo/learn)).
+<img src="https://i.imgur.com/MEZOo3z.png" align="center" width=500 />
 
-  - Think of a common prefix for all packages of the organization, which
-    may become a meta-package (ala tidyverse)
-    ([example](https://forestgeo.github.io/fgeo/)). (Unfortunately 2dii
-    is an invalid package name, but twodii is valid).
+#### Build websites for all user-facing packages ([pkdown](https://pkgdown.r-lib.org/)). For example:
 
-  - Develop APIs and data structures consistently across packages.
+<img src="https://i.imgur.com/eSrxDZP.png" align="center" width=700 />
+–<https://maurolepore.github.io/pacta>
 
-  - If you need a custom data structure, define it as an S3 class (if
-    possible) as soon as possible. This simplifies downstream checks for
-    data quality.
+#### Collect useful resources in a repo ([example](https://github.com/forestgeo/learn)).
 
-  - For tests and examples, create a package containing tiny versions of
-    the typical dataset
-    ([example](https://forestgeo.github.io/fgeo.x/)). This makes it easy
-    to access data from mulitple package.
+<img src="https://i.imgur.com/u4YeVYr.png" align="center" width=500 />
 
-  - Provide examples for every function.
+#### For specific suggestions, [see commits](https://github.com/maurolepore/pacta/commits/master).
 
-### Specific suggestions
+<img src="https://i.imgur.com/s38j7na.png" align="center" width=700 />
 
-For specific suggestions, see each commit message.
+#### Lesser known resources:
+
+  - Second edition (work in progress) of [R
+    Packages](https://r-pkgs.org)
+  - [Tidyverse design principles](https://principles.tidyverse.org/).
+  - [Tidyverse style guide](https://style.tidyverse.org/)
