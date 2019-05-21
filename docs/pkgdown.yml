@@ -4,5 +4,4 @@ pkgdown_sha: ~
 articles:
   data-matching: siteonly/data-matching.html
   data-preparation: siteonly/data-preparation.html
-  mauro-review: siteonly/mauro-review.html
 
