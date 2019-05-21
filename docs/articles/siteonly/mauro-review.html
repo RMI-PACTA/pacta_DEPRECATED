@@ -93,47 +93,90 @@
 
     
     
-<div id="general-suggestions" class="section level3">
-<h3 class="hasAnchor">
-<a href="#general-suggestions" class="anchor"></a>General suggestions</h3>
+<div id="automate-the-development-process-with-the-usethis-packages-" class="section level4">
+<h4 class="hasAnchor">
+<a href="#automate-the-development-process-with-the-usethis-packages-" class="anchor"></a>Automate the development process with the <a href="https://usethis.r-lib.org/">usethis</a> packages.</h4>
+<p><img src="https://i.imgur.com/Fd8zZ6N.png" align="center" width="500"></p>
+</div>
+<div id="consider-developing-a-developer-facing-package-to-provide-templates--example" class="section level4">
+<h4 class="hasAnchor">
+<a href="#consider-developing-a-developer-facing-package-to-provide-templates--example" class="anchor"></a>Consider developing a developer-facing package to provide templates. <a href="https://forestgeo.github.io/fgeo.template/">Example</a>:</h4>
+<pre><code>#&gt; C:/Users/LeporeM/Documents/Dropbox/Temp/twodii/pacta/../../../git/fgeo.template/inst/templates
+#&gt; +-- ca.sh
+#&gt; +-- cm.sh
+#&gt; +-- CODE_OF_CONDUCT.md
+#&gt; +-- compat-lifecycle.R
+#&gt; +-- CONTRIBUTING.md
+#&gt; +-- cran-comments.md
+#&gt; +-- github_document.Rmd
+#&gt; +-- ISSUE_TEMPLATE.md
+#&gt; +-- README.md
+#&gt; +-- README.Rmd
+#&gt; +-- rmarkdown_template.Rmd
+#&gt; +-- ru.sh
+#&gt; +-- stale.yml
+#&gt; +-- SUPPORT.md
+#&gt; +-- travis.yml
+#&gt; \-- _pkgdown.yml</code></pre>
+</div>
+<div id="consider-using-checklists-to-standardize-processes-that-arent-easy-to-capture-in-code" class="section level4">
+<h4 class="hasAnchor">
+<a href="#consider-using-checklists-to-standardize-processes-that-arent-easy-to-capture-in-code" class="anchor"></a>Consider using checklists to standardize processes that aren’t easy to capture in code</h4>
 <ul>
-<li><p>Automate the development process with the <a href="https://usethis.r-lib.org/">usethis</a> packages. The first version of the <a href="http://r-pkgs.had.co.nz/">R packages</a> book was published before usethis existed. The <a href="https://r-pkgs.org">work-in-progress version of that book</a> uses usethis. See also the <a href="https://principles.tidyverse.org/">Tidyverse design principles</a>.</p></li>
-<li><p>Prefer this style guide: <a href="https://style.tidyverse.org/" class="uri">https://style.tidyverse.org/</a>. For example, avoid <code>.</code> in object names::</p></li>
+<li>
+<a href="https://fgeo.netlify.com/2018/03/28/2018-03-28-building-infrastructure-for-r-packages-with-usethis/">“Checklist” to build R packages</a>. Example:</li>
 </ul>
-<blockquote>
-<p>Base R uses dots in function names (contrib.url()) and class names (data.frame), but it’s better to reserve dots exclusively for the S3 object system. In S3, methods are given the name function.class; if you also use . in function and class names, you end up with confusing methods like as.data.frame.data.frame(). –<a href="https://style.tidyverse.org/syntax.html#object-names" class="uri">https://style.tidyverse.org/syntax.html#object-names</a></p>
-</blockquote>
+<pre><code>use_readme_rmd()
+# Or
+# use_template(template = "&lt;file&gt;", package = "&lt;package&gt;")
+
+use_cran_badge()
+use_tidy_coc()
+use_news_md()
+use_tidy_contributing()
+use_tidy_issue_template()
+use_tidy_support()
+use_github_labels(delete_default = TRUE)</code></pre>
 <ul>
-<li><p>On TravisCI, check with multiple versions of R (at least devel, release, and oldrel).</p></li>
-<li>Write documentation with users in mind, not developers:
-<ul>
-<li>Usually there are more users than developers.</li>
-<li>Development details (e.g. use devtools and roxygen2) should be irrelevant to using a package.</li>
-<li>Developers should be familiar with standard development practices. If needed, details should be provided in dedicated developer-facing documentation.</li>
-</ul>
-</li>
-<li><p>Consider using the standard README template, as provided via <code><a href="https://usethis.r-lib.org/reference/use_readme_rmd.html">usethis::use_readme_rmd()</a></code>.</p></li>
-<li><p>Consider developing a developer-facing package to provide templates (<a href="https://forestgeo.github.io/fgeo.template/">example</a>).</p></li>
-<li><p>Enable rmarkdown syntax in the documentation via the <a href="https://github.com/r-lib/roxygen2md">roxygen2md</a> package.</p></li>
-<li><p>Build websites for all user-facing packages (<a href="https://pkgdown.r-lib.org/">pkdown</a>) (<a href="https://forestgeo.github.io/fgeo/">example</a>).</p></li>
-<li>Consider using checklists to standardize processes that aren’t easy to capture in code:
-<ul>
-<li><a href="https://fgeo.netlify.com/2018/03/28/2018-03-28-building-infrastructure-for-r-packages-with-usethis/">Checklist to build R packages</a></li>
 <li><a href="https://github.com/forestgeo/learn/issues/212">Checklist to release a package to CRAN</a></li>
 </ul>
-</li>
-<li><p>Make it easy to find useful resources (<a href="https://github.com/forestgeo/learn">example</a>).</p></li>
-<li><p>Think of a common prefix for all packages of the organization, which may become a meta-package (ala tidyverse) (<a href="https://forestgeo.github.io/fgeo/">example</a>). (Unfortunately 2dii is an invalid package name, but twodii is valid).</p></li>
-<li>Develop APIs and data structures consistently across packages.</li>
-<li><p>If you need a custom data structure, define it as an S3 class (if possible) as soon as possible. This simplifies downstream checks for data quality.</p></li>
-<li><p>For tests and examples, create a package containing tiny versions of the typical dataset (<a href="https://forestgeo.github.io/fgeo.x/">example</a>). This makes it easy to access data from mulitple package.</p></li>
-<li><p>Provide examples for every function.</p></li>
-</ul>
+<p><img src="https://i.imgur.com/tIz09qu.png" align="center" width="500"></p>
+<div id="create-a-package-for-examples-tests-and-to-share-public-data--example" class="section level5">
+<h5 class="hasAnchor">
+<a href="#create-a-package-for-examples-tests-and-to-share-public-data--example" class="anchor"></a>Create a package for examples, tests, and to share public data. (<a href="https://forestgeo.github.io/fgeo.x/">Example</a>):</h5>
+<p><img src="https://i.imgur.com/u4YeVYr.png" align="center" width="500"></p>
 </div>
-<div id="specific-suggestions" class="section level3">
-<h3 class="hasAnchor">
-<a href="#specific-suggestions" class="anchor"></a>Specific suggestions</h3>
-<p>For specific suggestions, see each commit message.</p>
+</div>
+<div id="on-travisci-check-with-multiple-versions-of-r-at-least-devel-release-and-oldrel-" class="section level4">
+<h4 class="hasAnchor">
+<a href="#on-travisci-check-with-multiple-versions-of-r-at-least-devel-release-and-oldrel-" class="anchor"></a>On TravisCI, check with multiple versions of R (at least devel, release, and oldrel).</h4>
+<p><img src="https://i.imgur.com/MEZOo3z.png" align="center" width="500"></p>
+</div>
+<div id="build-websites-for-all-user-facing-packages-pkdown--for-example" class="section level4">
+<h4 class="hasAnchor">
+<a href="#build-websites-for-all-user-facing-packages-pkdown--for-example" class="anchor"></a>Build websites for all user-facing packages (<a href="https://pkgdown.r-lib.org/">pkdown</a>). For example:</h4>
+<p><img src="https://i.imgur.com/eSrxDZP.png" align="center" width="700"> –<a href="https://maurolepore.github.io/pacta" class="uri">https://maurolepore.github.io/pacta</a></p>
+</div>
+<div id="collect-useful-resources-in-a-repo-example-" class="section level4">
+<h4 class="hasAnchor">
+<a href="#collect-useful-resources-in-a-repo-example-" class="anchor"></a>Collect useful resources in a repo (<a href="https://github.com/forestgeo/learn">example</a>).</h4>
+<p><img src="https://i.imgur.com/u4YeVYr.png" align="center" width="500"></p>
+</div>
+<div id="for-specific-suggestions-see-commits-" class="section level4">
+<h4 class="hasAnchor">
+<a href="#for-specific-suggestions-see-commits-" class="anchor"></a>For specific suggestions, <a href="https://github.com/maurolepore/pacta/commits/master">see commits</a>.</h4>
+<p><img src="https://i.imgur.com/s38j7na.png" align="center" width="700"></p>
+</div>
+<div id="lesser-known-resources" class="section level4">
+<h4 class="hasAnchor">
+<a href="#lesser-known-resources" class="anchor"></a>Lesser known resources:</h4>
+<ul>
+<li>Second edition (work in progress) of <a href="https://r-pkgs.org">R Packages</a>
+</li>
+<li>
+<a href="https://principles.tidyverse.org/">Tidyverse design principles</a>.</li>
+<li><a href="https://style.tidyverse.org/">Tidyverse style guide</a></li>
+</ul>
 </div>
   </div>
 
