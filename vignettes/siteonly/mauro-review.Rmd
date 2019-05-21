@@ -1,8 +1,8 @@
 ---
-title: "mauro-review"
+title: "Mauro's review"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{mauro-review}
+  %\VignetteIndexEntry{Mauro's review}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
