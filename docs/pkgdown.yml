@@ -1,7 +1,8 @@
-pandoc: 2.7.2
+pandoc: '2.6'
 pkgdown: 1.3.0
 pkgdown_sha: ~
 articles:
   data-matching: siteonly/data-matching.html
   data-preparation: siteonly/data-preparation.html
+  mauro-review: siteonly/mauro-review.html
 
