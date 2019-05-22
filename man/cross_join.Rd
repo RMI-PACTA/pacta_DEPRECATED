@@ -7,10 +7,12 @@
 cross_join(l, r)
 }
 \arguments{
-\item{l, r}{- left and right hand side tables}
+\item{l, r}{\itemize{
+\item left and right hand side tables
+}}
 }
 \description{
 function returns combination of all records in \code{l} with all
-  records from \code{r}. Columns from \code{r} follow columns from \code{l}
-  in the result.
+records from \code{r}. Columns from \code{r} follow columns from \code{l}
+in the result.
 }

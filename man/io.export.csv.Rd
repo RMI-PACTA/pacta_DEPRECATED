@@ -14,6 +14,6 @@ where data is stored}
 }
 \description{
 Function exports data into Key-Value store by given key. By
-  default file system is used as KV store. Serialization format is CSV
-  (american centric).
+default file system is used as KV store. Serialization format is CSV
+(american centric).
 }

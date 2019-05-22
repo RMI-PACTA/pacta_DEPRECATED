@@ -7,9 +7,13 @@
 closestMatches(names, dictionary)
 }
 \arguments{
-\item{names}{- vector of names to find in disctionary}
+\item{names}{\itemize{
+\item vector of names to find in disctionary
+}}
 
-\item{dictionary}{- dictionary}
+\item{dictionary}{\itemize{
+\item dictionary
+}}
 }
 \value{
 vector of indexes of dictionary entries

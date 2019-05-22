@@ -7,12 +7,16 @@
 convert.naics2sc(naics, rules = pacta::data.naics2sc.rules)
 }
 \arguments{
-\item{naics}{- 6-digit NAICS Industry code}
+\item{naics}{\itemize{
+\item 6-digit NAICS Industry code
+}}
 
-\item{rules}{- dataframe with conversion rules (example: \link{data.naics2sc.rules})}
+\item{rules}{\itemize{
+\item dataframe with conversion rules (example: \link{data.naics2sc.rules})
+}}
 }
 \description{
-Function takes list of NAICS codes and returns vector of 
+Function takes list of NAICS codes and returns vector of
 corresponding Sector Classifications. Additionally dataframe with conversion
 rules in \link{data.naics2sc.rules} format can be provided.
 }

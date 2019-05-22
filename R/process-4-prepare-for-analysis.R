@@ -405,6 +405,7 @@ proc.prepareSectorMaster4analysis <- function(
   # recognize all selected data for "Global level"
   SectorMasters_Global <-
     SectorMasters_SelRegions %>%
+    # FIXME: Do you mean `dplyr::filter()` or `stats::filter()`?
     filter(
       # BenchmarkRegion %in% c("Global", "NonOECD", "OECD")
       BenchmarkRegion %in% c("Global")

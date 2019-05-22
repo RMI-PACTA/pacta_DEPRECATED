@@ -5,8 +5,8 @@
 \alias{data.name.reductions}
 \title{Name reduction rules}
 \format{\describe{
-  \item{From}{Original value to be replaced}
-  \item{To}{Resulting value}
+\item{From}{Original value to be replaced}
+\item{To}{Resulting value}
 }
 Values can be provided in any case, they are explicitely converted into lower
 case (as a name) before use.}
@@ -14,7 +14,7 @@ case (as a name) before use.}
 data.name.reductions
 }
 \description{
-Name reduction (abbreviation) fules are used for name simplification. Data 
+Name reduction (abbreviation) fules are used for name simplification. Data
 is represented in form of data.frame with two columns.
 }
 \keyword{datasets}

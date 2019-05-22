@@ -2,24 +2,38 @@ Package: pacta
 Title: Paris Agreement Capital Transition Assessment
 Version: 0.0.0.9000
 Authors@R:
-    person("Evgeny", "Petrovskiy", email = "ev.petrovsky@gmail.com", role = c("aut", "cre"))
-    person("Klaus", "Hogedorn", email = "klaus@2degrees-investing.org", role = c("aut", "cre"))
-Description: R package to perform Paris Agreement Capital Transition Assessment for corporate lending portfolio including matching and analysis module.
-Depends: R (>= 3.3)
-License: file LICENSE
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 6.1.0
-Suggests: 
-    testthat,
-    knitr,
-    rmarkdown
+    person(given = "Klaus",
+           family = "Hogedorn",
+           role = c("aut", "cre"),
+           email = "klaus@2degrees-investing.org")
+Description: R package to perform Paris Agreement Capital
+    Transition Assessment for corporate lending portfolio including
+    matching and analysis module.
+License: MIT + file LICENSE
+URL: https://github.com/2DegreesInvesting/pacta
+BugReports: https://github.com/2DegreesInvesting/pacta/issues
+Depends: 
+    R (>= 3.3)
 Imports:
+    dplyr,
+    magrittr,
+    rlang (>= 0.1.2),
+    stats,
     stringdist,
     stringi,
     stringr,
-    magrittr,
-    dplyr,
+    tibble,
     tidyr,
-    tibble
-VignetteBuilder: knitr
+    utils
+Suggests: 
+    covr,
+    knitr,
+    rmarkdown,
+    roxygen2,
+    testthat
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1

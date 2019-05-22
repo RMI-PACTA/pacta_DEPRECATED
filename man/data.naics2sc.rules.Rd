@@ -5,11 +5,11 @@
 \alias{data.naics2sc.rules}
 \title{NAICS -> Sector Subclassification}
 \format{A dataframe with following variables \describe{
-  \item{Level}{Level to which particular code belongs, 
-    can be "Sector", "Subsector", "Industry"}
-  \item{Code}{Code of Sector (2-digit), Subsector (3-digit) or Industry (6-digit)}
-  \item{Description}{Description for related Code}
-  \item{Sector.Classification}{Assigned Sector subclassification code}
+\item{Level}{Level to which particular code belongs,
+can be "Sector", "Subsector", "Industry"}
+\item{Code}{Code of Sector (2-digit), Subsector (3-digit) or Industry (6-digit)}
+\item{Description}{Description for related Code}
+\item{Sector.Classification}{Assigned Sector subclassification code}
 }}
 \usage{
 data.naics2sc.rules
@@ -17,7 +17,7 @@ data.naics2sc.rules
 \description{
 Conversion table of NAICS codes into internal Sector Subclassification.
 Describes relation between NAICS classification and Sector Subclassification
-on 3 different levels: Sector, Subsector, Industry. Rules with Industry code 
+on 3 different levels: Sector, Subsector, Industry. Rules with Industry code
 plrevail over rules with Subsector code; Subsector prevails over Sector.
 }
 \keyword{datasets}

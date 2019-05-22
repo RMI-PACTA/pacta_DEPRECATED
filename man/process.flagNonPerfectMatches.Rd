@@ -14,6 +14,6 @@ process.flagNonPerfectMatches(names, sectors, scores)
 \item{scores}{vector of scores (\code{Score} column)}
 }
 \description{
-function takes all matches produced by \link{process.matchLBKandALD} 
-  function and flags only matches which require verification
+function takes all matches produced by \link{process.matchLBKandALD}
+function and flags only matches which require verification
 }

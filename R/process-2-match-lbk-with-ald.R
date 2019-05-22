@@ -44,7 +44,7 @@ process.matchLBKandALD <- function(lbk4match, ald4match) {
 #' 
 #' @export
 #' @param scores vector with match scores produced by \link{process.matchLBKandALD}
-#'   function (which contains \code{Score} column)
+#'   function (which contains `Score` column)
 process.flagPerfectMatches <- function(scores) {
   scores == 1
 }
@@ -55,9 +55,9 @@ process.flagPerfectMatches <- function(scores) {
 #'   function and flags only matches which require verification
 #' 
 #' @export
-#' @param names vector of names (\code{Names} column in match results data frame)
-#' @param sectors vector of sectors (\code{Segment} column)
-#' @param scores vector of scores (\code{Score} column)
+#' @param names vector of names (`Names` column in match results data frame)
+#' @param sectors vector of sectors (`Segment` column)
+#' @param scores vector of scores (`Score` column)
 process.flagNonPerfectMatches <- function(names, sectors, scores) {
   pft <- process.flagPerfectMatches(scores)
   

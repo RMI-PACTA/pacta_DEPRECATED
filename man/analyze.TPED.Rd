@@ -17,5 +17,5 @@ analyze.TPED(loanbook, demand, startyear, years)
 }
 \description{
 Asessment across the Power and Fossil Fuels sector. Scenario
-  analysis (volume effect proxy) and Technology mix
+analysis (volume effect proxy) and Technology mix
 }

@@ -7,14 +7,14 @@
 io.getPath(location, config)
 }
 \arguments{
-\item{location}{input parameterized path, for example "Location" attribute 
+\item{location}{input parameterized path, for example "Location" attribute
 from \link{data.dataset.req.files} data frame.}
 
 \item{config}{configuration from yml file, returned by \code{config::get} method}
 }
 \description{
 Supplementary function that calculates dynamic path to file
-  based on preserved names. It supposed to work together with
-  link{data.dataset.req.files} where Location is passed into \code{location}
-  parameter.
+based on preserved names. It supposed to work together with
+link{data.dataset.req.files} where Location is passed into \code{location}
+parameter.
 }

@@ -11,6 +11,6 @@ process.flagPerfectMatches(scores)
 function (which contains \code{Score} column)}
 }
 \description{
-Function takes match scores and returns logical vector of 
-  perfect matches which can be used further without manual verification
+Function takes match scores and returns logical vector of
+perfect matches which can be used further without manual verification
 }

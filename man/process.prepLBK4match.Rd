@@ -7,28 +7,34 @@
 process.prepLBK4match(loanbook, selections, override)
 }
 \arguments{
-\item{loanbook}{- local loanbook with minimum set of required fields (see 
-loanbook.example)}
+\item{loanbook}{\itemize{
+\item local loanbook with minimum set of required fields (see
+loanbook.example)
+}}
 
-\item{selections}{- list of named selections from loanbook, each selection in 
-list must contain following attributes: 
-\code{level} (level of mathcing); 
-\code{ids} (Column name with IDs); 
-\code{values} (Column name with values used for mathcing). 
+\item{selections}{\itemize{
+\item list of named selections from loanbook, each selection in
+list must contain following attributes:
+\code{level} (level of mathcing);
+\code{ids} (Column name with IDs);
+\code{values} (Column name with values used for mathcing).
 Besides this, selection may contain following optional attributes:
 \code{value.type} (type of values provided)
-\code{simplify} (flag that runs name simplification of values provided - 
-  see \link{simplifyName} function for details)
-\code{cut.ownership} (flag that instructs simplify algorithm to cut ownership type)}
+\code{simplify} (flag that runs name simplification of values provided -
+see \link{simplifyName} function for details)
+\code{cut.ownership} (flag that instructs simplify algorithm to cut ownership type)
+}}
 
-\item{override}{- local override rules for matching: dataframe}
+\item{override}{\itemize{
+\item local override rules for matching: dataframe
+}}
 }
 \value{
-data.frame with column set: CustomerID, Level, Relation, ValueType, 
+data.frame with column set: CustomerID, Level, Relation, ValueType,
 OriginalValue, MatchValue, SectorClassification
 }
 \description{
-function that prepares local loanbook data for matching. It 
-takes loanbook and override rules and produces dataframe of universal 
+function that prepares local loanbook data for matching. It
+takes loanbook and override rules and produces dataframe of universal
 structure for matching.
 }

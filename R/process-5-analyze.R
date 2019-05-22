@@ -1,7 +1,7 @@
 #' Make cartesian product of two tables
 #'
-#' @description function returns combination of all records in \code{l} with all
-#'   records from \code{r}. Columns from \code{r} follow columns from \code{l}
+#' @description function returns combination of all records in `l` with all
+#'   records from `r`. Columns from `r` follow columns from `l`
 #'   in the result.
 #'
 #' @param l,r - left and right hand side tables
@@ -22,7 +22,7 @@ cross_join <- function(l, r) {
 #'   original value. If sum of original values equal to 0 then result will
 #'   contain NA values. Please be aware that function may return unexpected
 #'   result when values in vector are of different sign and sum of them almost
-#'   equal to zero (e.g. \code{ratio_to_report(c(1, 2, 3, -6.00000001))} will
+#'   equal to zero (e.g. `ratio_to_report(c(1, 2, 3, -6.00000001))` will
 #'   return very big numbers).
 #'
 #' @export
@@ -169,7 +169,7 @@ analyze.meta.LoanbookMatches <- function(loanbook, ald.master) {
 
   ald <- 
     ald.master %>% 
-    dplyr::select(ALD.Level, Name, Sector) %>%
+    dplyr::select(.data$ALD.Level, .data$Name, .data$Sector) %>%
     unique() %>%
     dplyr::mutate(Analysis.Matched = 1)
 

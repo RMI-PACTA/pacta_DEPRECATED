@@ -51,8 +51,8 @@ match1Name <- function(name, dictionary, threshold) {
 #' @description Function compares given name with elements of dictionary,
 #'   callculates simiarity scores and returns result in data.frame format.
 #'   Matching results might be optionally filtered according to threshold value
-#' @return Function returns dataframe with columns \code{Name},
-#'   \code{Dictionary}, \code{Score}. Number of rows in dataframe depends on
+#' @return Function returns dataframe with columns `Name`,
+#'   `Dictionary`, `Score`. Number of rows in dataframe depends on
 #'   number of names and number of mathces that have a score higher than the
 #'   threshold
 #'
@@ -104,7 +104,7 @@ matchNames <- function(names, dictionary, threshold = .95, return = "closest") {
 #' @description split names and dictionary values into blocks and make matching
 #'   within corresponding blocks
 #' @return dataframe of structure described as result of \link{matchNames}
-#'   function, extended with \code{Segment} column that represents block.
+#'   function, extended with `Segment` column that represents block.
 #' 
 #' @export
 #' @param names - name to compare against dictionary

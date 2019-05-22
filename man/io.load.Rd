@@ -11,5 +11,5 @@ io.load(key)
 }
 \description{
 Fast using internal serialization format.
-  Works best for temporary / intermediate data.
+Works best for temporary / intermediate data.
 }

@@ -30,7 +30,16 @@ check.ds_cols <- function(ds_name, ds_col_names) {
 #' @param ds_name Dataset Name
 #' @param ds_col_names vector of Dataset columns
 get.ds_missing_cols <- function(ds_name, ds_col_names) {
+  # FIXME: See `?subset()`
+  # Warning
+  # This is a convenience function intended for use interactively. For
+  # programming it is better to use the standard subsetting functions like [,
+  # and in particular the non-standard evaluation of argument subset can have
+  # unanticipated consequences.
   requirements <- subset(
+    # FIXME: 
+    # `pacta::dataset.req.attrs` does not exist.
+    # Do you mean `pacta::data.dataset.req.attrs`?
     pacta::dataset.req.attrs,
     Dataset == ds_name
   )
@@ -42,8 +51,8 @@ get.ds_missing_cols <- function(ds_name, ds_col_names) {
 #' Substitute parts of string
 #' 
 #' @param str string to modify
-#' @param subs list of substitutions in format \code{list(name = value)}
-#'   where \code{name} is pattern and \code{value} is replacement.
+#' @param subs list of substitutions in format `list(name = value)`
+#'   where `name` is pattern and `value` is replacement.
 susbtitute.string <- function(str, subs) {
   new_val <- Reduce(
     f = function(z, x) {

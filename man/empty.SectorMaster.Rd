@@ -7,6 +7,6 @@
 empty.SectorMaster()
 }
 \description{
-Function defines data frame structure for Sector Master data used in 
+Function defines data frame structure for Sector Master data used in
 analysis
 }

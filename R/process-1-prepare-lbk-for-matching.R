@@ -12,14 +12,14 @@
 #' loanbook.example)
 #' @param selections - list of named selections from loanbook, each selection in 
 #'   list must contain following attributes: 
-#'   \code{level} (level of mathcing); 
-#'   \code{ids} (Column name with IDs); 
-#'   \code{values} (Column name with values used for mathcing). 
+#'   `level` (level of mathcing); 
+#'   `ids` (Column name with IDs); 
+#'   `values` (Column name with values used for mathcing). 
 #'   Besides this, selection may contain following optional attributes:
-#'   \code{value.type} (type of values provided)
-#'   \code{simplify} (flag that runs name simplification of values provided - 
+#'   `value.type` (type of values provided)
+#'   `simplify` (flag that runs name simplification of values provided - 
 #'     see \link{simplifyName} function for details)
-#'   \code{cut.ownership} (flag that instructs simplify algorithm to cut ownership type)
+#'   `cut.ownership` (flag that instructs simplify algorithm to cut ownership type)
 #' @param override - local override rules for matching: dataframe 
 process.prepLBK4match <- function(loanbook, selections, override) {
   # selections <- list(
@@ -129,18 +129,18 @@ process.prepLBK4match <- function(loanbook, selections, override) {
 #' @section Relation types:
 #'   
 #' Relation type describes relation between Value for matching and client ID. 
-#' For example if we use client's name, then relation will be \code{Id};
+#' For example if we use client's name, then relation will be `Id`;
 #' if we use names of SPVs that belong to client, then we will use code
-#' \code{Legal child}.
+#' `Legal child`.
 #'   
 #' 
 #' @section Value types:
 #' 
 #' In general value just characterizes company. It can be any unformation useful
 #' for matching. Value type describes what kind of value we use. 
-#' It can be Company name (\code{Name}) in a standard case,
-#' but it can also be security ISIN code issued by company (\code{ISIN}) or
-#' IMO of a ship owned by company (\code{IMO}).
+#' It can be Company name (`Name`) in a standard case,
+#' but it can also be security ISIN code issued by company (`ISIN`) or
+#' IMO of a ship owned by company (`IMO`).
 addLBK4matching <- function(
   level, ids, names, values, sectors, 
   relation = "Id", value.type = "Legal Name", source = "Loanbook",

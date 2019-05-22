@@ -7,15 +7,25 @@
 addALD4matching(levels, ids, values, sectors, simplify = FALSE)
 }
 \arguments{
-\item{levels}{- Level at which matching is performed (e.g. "Direct Owner", "Ultimate Economic Parent" etc.)}
+\item{levels}{\itemize{
+\item Level at which matching is performed (e.g. "Direct Owner", "Ultimate Economic Parent" etc.)
+}}
 
-\item{ids}{- vector with cusomer ID}
+\item{ids}{\itemize{
+\item vector with cusomer ID
+}}
 
-\item{values}{- vector with values to be matched}
+\item{values}{\itemize{
+\item vector with values to be matched
+}}
 
-\item{sectors}{- vector with sector sclassification}
+\item{sectors}{\itemize{
+\item vector with sector sclassification
+}}
 
-\item{simplify}{- logical flag if names simplification should be applied (use only for names)}
+\item{simplify}{\itemize{
+\item logical flag if names simplification should be applied (use only for names)
+}}
 }
 \description{
 Prepare dataset for matching

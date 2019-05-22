@@ -1,2 +1,12 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^data-raw$
+^CONTRIBUTING\.md$
+^\.travis\.yml$
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^LICENSE\.md$
+^vignettes/siteonly$
+^\.buildignore$

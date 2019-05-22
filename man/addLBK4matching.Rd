@@ -9,38 +9,58 @@ addLBK4matching(level, ids, names, values, sectors, relation = "Id",
   cut.ownership = FALSE)
 }
 \arguments{
-\item{level}{- mathicng level}
+\item{level}{\itemize{
+\item mathicng level
+}}
 
-\item{ids}{- vector of IDs, for example customer Borrower IDs}
+\item{ids}{\itemize{
+\item vector of IDs, for example customer Borrower IDs
+}}
 
-\item{names}{- vector of names, that characterize ID (for example Borrower Name)}
+\item{names}{\itemize{
+\item vector of names, that characterize ID (for example Borrower Name)
+}}
 
-\item{values}{- vector of names, for example Borrower Name}
+\item{values}{\itemize{
+\item vector of names, for example Borrower Name
+}}
 
-\item{sectors}{- vector of sector sclassification}
+\item{sectors}{\itemize{
+\item vector of sector sclassification
+}}
 
-\item{relation}{- describes how CustomerID related to OriginalValue in the output;
-see section "Relation types" for more details}
+\item{relation}{\itemize{
+\item describes how CustomerID related to OriginalValue in the output;
+see section "Relation types" for more details
+}}
 
-\item{value.type}{- describes what type of data OriginalValue contains; 
-see section "Value types" for more details}
+\item{value.type}{\itemize{
+\item describes what type of data OriginalValue contains;
+see section "Value types" for more details
+}}
 
-\item{source}{- describes source of information; 
-it can be loanbook or manial client linkage file}
+\item{source}{\itemize{
+\item describes source of information;
+it can be loanbook or manial client linkage file
+}}
 
-\item{simplify}{- defines if matching should be performed using simplified 
-values}
+\item{simplify}{\itemize{
+\item defines if matching should be performed using simplified
+values
+}}
 
-\item{cut.ownership}{- cuts-off ownership type}
+\item{cut.ownership}{\itemize{
+\item cuts-off ownership type
+}}
 }
 \description{
-Function takes vectors of values and products dataframe that can 
+Function takes vectors of values and products dataframe that can
 be used for matching
 }
 \section{Relation types}{
 
-  
-Relation type describes relation between Value for matching and client ID. 
+
+Relation type describes relation between Value for matching and client ID.
 For example if we use client's name, then relation will be \code{Id};
 if we use names of SPVs that belong to client, then we will use code
 \code{Legal child}.
@@ -50,7 +70,7 @@ if we use names of SPVs that belong to client, then we will use code
 
 
 In general value just characterizes company. It can be any unformation useful
-for matching. Value type describes what kind of value we use. 
+for matching. Value type describes what kind of value we use.
 It can be Company name (\code{Name}) in a standard case,
 but it can also be security ISIN code issued by company (\code{ISIN}) or
 IMO of a ship owned by company (\code{IMO}).

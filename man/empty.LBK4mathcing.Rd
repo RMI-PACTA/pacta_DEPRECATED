@@ -7,6 +7,6 @@
 empty.LBK4mathcing()
 }
 \description{
-Function defines data frame structure for loanbook data used in 
+Function defines data frame structure for loanbook data used in
 matching.
 }

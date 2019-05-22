@@ -7,6 +7,6 @@
 empty.ALD4mathcing()
 }
 \description{
-Function defines data frame structure for asset-level data used in 
+Function defines data frame structure for asset-level data used in
 matching.
 }

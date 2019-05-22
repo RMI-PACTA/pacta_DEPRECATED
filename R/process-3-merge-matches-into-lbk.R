@@ -87,7 +87,7 @@ process.mergeMatches2LBK <- function(loanbook, matches) {
 #' 
 #' @description Function pickes best matches from matches data frame provided.
 #' "Best" is defined based on order of "Level.global" values provided in 
-#' \code{ald.levels} vector. 
+#' `ald.levels` vector. 
 #' 
 #' @return dataframe with columns 
 #' "ID.local", "Level.global", "ID.global", "Original.Value.global"

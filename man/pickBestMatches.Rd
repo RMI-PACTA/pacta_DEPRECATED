@@ -7,21 +7,29 @@
 pickBestMatches(matches, local.level, ald.levels, first.dupl = T)
 }
 \arguments{
-\item{matches}{- data frame with match results}
+\item{matches}{\itemize{
+\item data frame with match results
+}}
 
-\item{local.level}{- which local level of loanbook data is gouing to be merged}
+\item{local.level}{\itemize{
+\item which local level of loanbook data is gouing to be merged
+}}
 
-\item{ald.levels}{- vector of ALD data level in order of their priority}
+\item{ald.levels}{\itemize{
+\item vector of ALD data level in order of their priority
+}}
 
-\item{first.dupl}{- how to treat first duplicate: 
-TRUE - keep it; FALSE - exclude duplicates completely}
+\item{first.dupl}{\itemize{
+\item how to treat first duplicate:
+TRUE - keep it; FALSE - exclude duplicates completely
+}}
 }
 \value{
-dataframe with columns 
+dataframe with columns
 "ID.local", "Level.global", "ID.global", "Original.Value.global"
 }
 \description{
 Function pickes best matches from matches data frame provided.
-"Best" is defined based on order of "Level.global" values provided in 
+"Best" is defined based on order of "Level.global" values provided in
 \code{ald.levels} vector.
 }
