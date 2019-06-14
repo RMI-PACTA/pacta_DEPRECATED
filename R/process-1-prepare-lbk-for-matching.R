@@ -95,7 +95,7 @@ process.prepLBK4match <- function(loanbook, selections, override) {
       init = empty.LBK4mathcing()
     ) %>% 
     subset(
-      !is_empty(Sector.Classification) & 
+      # !is_empty(Sector.Classification) & 
       !is_empty(Match.Value)
     ) %>%
     unique()
