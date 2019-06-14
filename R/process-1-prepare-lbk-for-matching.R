@@ -32,7 +32,6 @@ process.prepLBK4match <- function(loanbook, selections, override) {
       ast = list(level = "Asset", ids = "Asset.ID", values = "Asset.Name",  cut.ownership = T),
       brr = list(level = "Borrower", ids = "Borrower.ID", values = "Borrower.Name"),
       up = list(level = "Ultimate Parent", ids = "Ultimate.Parent.ID", values = "Ultimate.Parent.Name")
-      # lup = list(level = "Legal Ultimate Parent", ids = "LUP.ID", values = "LUP.Name")
     )
   } else {
     selections
@@ -96,7 +95,6 @@ process.prepLBK4match <- function(loanbook, selections, override) {
       init = empty.LBK4mathcing()
     ) %>% 
     subset(
-      !is_empty(ID) &
       !is_empty(Sector.Classification) & 
       !is_empty(Match.Value)
     ) %>%
