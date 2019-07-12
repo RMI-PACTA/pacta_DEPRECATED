@@ -2,10 +2,14 @@ Package: pacta
 Title: Paris Agreement Capital Transition Assessment
 Version: 0.0.0.9000
 Authors@R:
-    person(given = "Klaus",
-           family = "Hogedorn",
-           role = c("aut", "cre"),
-           email = "klaus@2degrees-investing.org")
+    c(person(given = "Evgeny",
+             family = "Petrovskiy",
+             role = c("aut"),
+             email = "ev.petrovsky@gmail.com"),
+      person(given = "Klaus",
+             family = "Hogedorn",
+             role = c("aut", "cre"),
+             email = "klaus@2degrees-investing.org"))
 Description: R package to perform Paris Agreement Capital
     Transition Assessment for corporate lending portfolio including
     matching and analysis module.

@@ -21,5 +21,10 @@ Useful links:
 \author{
 \strong{Maintainer}: Klaus Hogedorn \email{klaus@2degrees-investing.org}
 
+Authors:
+\itemize{
+  \item Evgeny Petrovskiy \email{ev.petrovsky@gmail.com}
+}
+
 }
 \keyword{internal}
