@@ -1,11 +1,9 @@
 NAICS,NAICS.Description,Company.Name,Country
-211,Oil and Gas Extraction,ConocoPhillips,United States
 211,Oil and Gas Extraction,Conoco Phillips,United States
 211,Oil and Gas Extraction,Greats Plains Synfuels Plant,United States
 211,Oil and Gas Extraction,Chevron USA Production,United States
 211,Oil and Gas Extraction,Nicor Gas,United States
 211,Oil and Gas Extraction,Exxon Mobil,United States
-211,Oil and Gas Extraction,Conoco Phillips,United States
 211,Oil and Gas Extraction,Enbridge,United States
 211,Oil and Gas Extraction,Guttman Oil,United States
 211,Oil and Gas Extraction,National Copperative Refinery,United States
@@ -15,47 +13,37 @@ NAICS,NAICS.Description,Company.Name,Country
 211,Oil and Gas Extraction,Newfield Exploration,United States
 211,Oil and Gas Extraction,Marathon Texas City Refinery,United States
 211,Oil and Gas Extraction,Peak Oilfield Service,United States
-211,Oil and Gas Extraction,Conoco Phillips,United States
 211,Oil and Gas Extraction,Chesapeake Energy,United States
 211,Oil and Gas Extraction,Lueffer Energy,United States
 211,Oil and Gas Extraction,Devon Energy Corp,United States
 211,Oil and Gas Extraction,Eog Resources Inc,United States
 211,Oil and Gas Extraction,Petrohawk Energy Corp.,United States
-211,Oil and Gas Extraction,Eog Resources Inc,United States
 211,Oil and Gas Extraction,Murphy Oil Corp,United States
 211,Oil and Gas Extraction,Energy Transfer Partners LP,United States
 481,Air Transportation,UPS Air Group,United States
 481,Air Transportation,Delta Air Lines Inc,United States
 481,Air Transportation,UPS Worldport,United States
 481,Air Transportation,United Airlines,United States
-481,Air Transportation,United Airlines,United States
 481,Air Transportation,Era Helicopters,United States
-481,Air Transportation,Delta Air Lines Inc,United States
 481,Air Transportation,Evergreen Eagle,United States
 481,Air Transportation,American Airlines Cargo Sales,United States
 481,Air Transportation,Polar Air Cargo Worldwide,United States
 481,Air Transportation,Southwest Airlines Cargo,United States
 481,Air Transportation,Aeko Kula Inc,United States
-481,Air Transportation,United Airlines,United States
 481,Air Transportation,Southwest Airlines,United States
 481,Air Transportation,Miami Air International,United States
-481,Air Transportation,Southwest Airlines,United States
 481,Air Transportation,American Airlines,United States
-481,Air Transportation,Delta Air Lines Inc,United States
 481,Air Transportation,JetBlue Airways,United States
 481,Air Transportation,Virgin Atlantic Cargo,United States
-481,Air Transportation,Southwest Airlines,United States
 481,Air Transportation,American Airline Cargo,United States
 481,Air Transportation,Alaska Airlines,United States
 481,Air Transportation,Alaska Airlines Inc,United States
-481,Air Transportation,Southwest Airlines,United States
 483,Water Transportation,"Jeffboat, LLC",United States
 483,Water Transportation,Hapag-Lloyd America,United States
 483,Water Transportation,Seaboard Marine,United States
 483,Water Transportation,Aep River Transportation,United States
 483,Water Transportation,Continental Maritime Of San Diego,United States
 483,Water Transportation,Artco Fleeting Service,United States
-483,Water Transportation,Seaboard Marine,United States
 483,Water Transportation,Crowley Liner Service,United States
 483,Water Transportation,Aloha Cargo Transport,United States
 483,Water Transportation,AEP River Operations,United States
@@ -69,7 +57,6 @@ NAICS,NAICS.Description,Company.Name,Country
 483,Water Transportation,Matson,United States
 483,Water Transportation,K-Line America,United States
 483,Water Transportation,Ports America Inc,United States
-483,Water Transportation,Hapag-Lloyd America,United States
 483,Water Transportation,T T Barge Cleaning Mile 183,United States
 483,Water Transportation,McDonough Marine Service,United States
 483,Water Transportation,Northland Services,United States
@@ -133,20 +120,11 @@ NAICS,NAICS.Description,Company.Name,Country
 327310,Cement Manufacturing,Parker Mobile Cylinder Division,United States
 327310,Cement Manufacturing,Lehigh Cement Co,United States
 327310,Cement Manufacturing,Martin Marietta,United States
-327310,Cement Manufacturing,Holcim Trading Inc,United States
-327310,Cement Manufacturing,Holcim Trading Inc,United States
-327310,Cement Manufacturing,Holcim Trading Inc,United States
 327310,Cement Manufacturing,Buzzi Unicem USA,United States
 327310,Cement Manufacturing,Bonsal American,United States
 327310,Cement Manufacturing,Rinker Materials Corp.,United States
-327310,Cement Manufacturing,Holcim Inc,United States
-327310,Cement Manufacturing,Holcim Trading Inc,United States
 327310,Cement Manufacturing,Holcim,United States
-327310,Cement Manufacturing,Buzzi Unicem USA,United States
 327310,Cement Manufacturing,GCC Consolidated Ready-Mix,United States
-327310,Cement Manufacturing,Buzzi Unicem USA,United States
-327310,Cement Manufacturing,Holcim Trading Inc,United States
-327310,Cement Manufacturing,Ash Grove Cement Co,United States
 327310,Cement Manufacturing,Holcim US Inc,United States
 327310,Cement Manufacturing,Capital Cement,United States
 331110,Iron and Steel Mills and Ferroalloy Manufacturing,US Steel Corp Granite City Works,United States
@@ -156,10 +134,8 @@ NAICS,NAICS.Description,Company.Name,Country
 331110,Iron and Steel Mills and Ferroalloy Manufacturing,AK Steel Corp.,United States
 331110,Iron and Steel Mills and Ferroalloy Manufacturing,Keystone Steel And Wire,United States
 331110,Iron and Steel Mills and Ferroalloy Manufacturing,Anvil International,United States
-331110,Iron and Steel Mills and Ferroalloy Manufacturing,ArcelorMittal,United States
 331110,Iron and Steel Mills and Ferroalloy Manufacturing,Nucor Steel Corp,United States
 331110,Iron and Steel Mills and Ferroalloy Manufacturing,Ellwood National Forge,United States
-331110,Iron and Steel Mills and Ferroalloy Manufacturing,ArcelorMittal,United States
 331110,Iron and Steel Mills and Ferroalloy Manufacturing,Charter Steel,United States
 331110,Iron and Steel Mills and Ferroalloy Manufacturing,Lone Star Tubular Operations,United States
 331110,Iron and Steel Mills and Ferroalloy Manufacturing,Gerdau Macsteel Monroe,United States
@@ -184,23 +160,15 @@ NAICS,NAICS.Description,Company.Name,Country
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Hanna Steel Corp.,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Oil City Tube,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Rath Gibson Inc,United States
-331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,ArcelorMittal Tubular Products,United States
-331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Valmont Industries,United States
-331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Plymouth Tube Co,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Bull Moose Tube Co,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Scot Industries,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Webco Specialty Tube Division,United States
-331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Plymouth Tube Co,United States
-331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Bull Moose Tube Co,United States
-331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Plymouth Tube Co,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Wheatland Tube Co,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Ryan Herco Flow Solutions,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Gerdau Pleasant Prairie,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Pioneer Steel And Tube Corp.,United States
 331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Tenaris Global Services USA,United States
-331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,Greenville Tube Co,United States
 331221,Rolled Steel Shape Manufacturing,Asarco,United States
-331221,Rolled Steel Shape Manufacturing,TMK IPSCO,United States
 331221,Rolled Steel Shape Manufacturing,TMK IPSCO,United States
 331221,Rolled Steel Shape Manufacturing,Cloyes Gear And Products,United States
 331221,Rolled Steel Shape Manufacturing,Worthington,United States
@@ -218,10 +186,8 @@ NAICS,NAICS.Description,Company.Name,Country
 331221,Rolled Steel Shape Manufacturing,County Materials Corp,United States
 331221,Rolled Steel Shape Manufacturing,Dura-Bar Metal Services,United States
 331221,Rolled Steel Shape Manufacturing,Isp Chemicals Inc,United States
-331221,Rolled Steel Shape Manufacturing,Pyrotek,United States
 331221,Rolled Steel Shape Manufacturing,Carpenter Powder Products,United States
 331221,Rolled Steel Shape Manufacturing,Magnetic Metals Corp.,United States
-331221,Rolled Steel Shape Manufacturing,Pyrotek,United States
 331221,Rolled Steel Shape Manufacturing,ATI Flat Rolled Products,United States
 331221,Rolled Steel Shape Manufacturing,CHS Acquisition Corp,United States
 331222,Steel Wire Drawing,Hudson Valley Fence Supply,United States
@@ -266,15 +232,11 @@ NAICS,NAICS.Description,Company.Name,Country
 331513,Steel Foundries (except Investment),ArcelorMittal,United States
 331513,Steel Foundries (except Investment),Bradken-Atlas,United States
 331513,Steel Foundries (except Investment),United States Steel Corp Tubular Opers,United States
-331513,Steel Foundries (except Investment),American Axle And Manufacturing,United States
 331513,Steel Foundries (except Investment),Techs Industries Inc,United States
 331513,Steel Foundries (except Investment),American Trim,United States
-331513,Steel Foundries (except Investment),American Axle And Manufacturing,United States
-331513,Steel Foundries (except Investment),Nucor Steel,United States
 331513,Steel Foundries (except Investment),"MC Conway And Torley, LLC",United States
 331513,Steel Foundries (except Investment),Allegheny Ludlum Corp.,United States
 331513,Steel Foundries (except Investment),Grede Berlin Corp,United States
-331513,Steel Foundries (except Investment),American Axle And Manufacturing,United States
 331513,Steel Foundries (except Investment),MC Kees Rocks Forgings,United States
 331513,Steel Foundries (except Investment),Shalmet Corp.,United States
 336111,Automobile Manufacturing,General Motors Co Lordstown Complex East,United States
@@ -329,3 +291,58 @@ NAICS,NAICS.Description,Company.Name,Country
 483,Water Transportation,Zim,Israel
 483,Water Transportation,Wan Hai Lines,Taiwan
 483,Water Transportation,X-Press Feeders Group,Singapore
+211,Oil and Gas Extraction,Alta Mesa Holdings Lp,United States
+211,Oil and Gas Extraction,Chevron U.Sa Inc,United States
+211,Oil and Gas Extraction,Extraction Oil & Gas Inc,United States
+211,Oil and Gas Extraction,Hess Corp,United States
+211,Oil and Gas Extraction,Chief Oil & Gas Llc,United States
+211,Oil and Gas Extraction,Suncor Energy Inc,United States
+211,Oil and Gas Extraction,Koch Industries Inc,United States
+211,Oil and Gas Extraction,Pioneer Natural Resources Co,United States
+211,Oil and Gas Extraction,Newfield Exploration Co,United States
+211,Oil and Gas Extraction,Marathon Oil Corp,United States
+211,Oil and Gas Extraction,Total Sa,United States
+211,Oil and Gas Extraction,Chesapeake Energy Corp,United States
+211,Oil and Gas Extraction,W&T Offshore Inc,United States
+211,Oil and Gas Extraction,Bp Plc,United States
+211,Oil and Gas Extraction,Matador Resources Co,United States
+212111,Coal Mining,Heritage Coal & Natural Resources Llc,United States
+212111,Coal Mining,Drummond Co Inc,United States
+212111,Coal Mining,Cloud Peak Energy Inc,United States
+212111,Coal Mining,Kiewit Peter Sons' Inc,United States
+212111,Coal Mining,Westmoreland Coal Co,United States
+212111,Coal Mining,Peabody Energy Corp,United States
+212111,Coal Mining,"Alliance Resource Partners, LP ",United States
+212111,Coal Mining,Alpha Natural Resources Inc,United States
+212111,Coal Mining,Metinvest B.V.,United States
+212111,Coal Mining,Contura Energy Inc,United States
+221111,Electric Power Generation,Florida Power & Light Co,United States
+221111,Electric Power Generation,General Electric Co,United States
+221111,Electric Power Generation,Hp Inc,United States
+221111,Electric Power Generation,Indiana Michigan Power Co,United States
+221111,Electric Power Generation,Nicor Gas,United States
+221111,Electric Power Generation,Entergy Corp,United States
+221111,Electric Power Generation,Talen Energy Corp,United States
+221111,Electric Power Generation,Duquesne Light Holdings Inc,United States
+221111,Electric Power Generation,Dominion Energy Inc,United States
+221111,Electric Power Generation,Tennessee Valley Authority,United States
+221111,Electric Power Generation,Central Maine Power Co,United States
+221111,Electric Power Generation,Duke Energy Florida Llc,United States
+221111,Electric Power Generation,American Electric Power Co Inc,United States
+221111,Electric Power Generation,Pacific Gas & Electric Co,United States
+221111,Electric Power Generation,Duke Energy Corp,United States
+221111,Electric Power Generation,Nv Energy Inc,United States
+221111,Electric Power Generation,Wolverine Corp ,United States
+221111,Electric Power Generation,New York State Electric & Gas Corp,United States
+221111,Electric Power Generation,Public Service Electric & Gas Co,United States
+221111,Electric Power Generation,Northern States Power Company.,United States
+336111,Automobile Manufacturing,Nissan Motor Co Ltd,United States
+336111,Automobile Manufacturing,Honda Motor Co Ltd,United States
+336111,Automobile Manufacturing,Honda corp,United States
+336111,Automobile Manufacturing,Tesla Motors Inc,United States
+336111,Automobile Manufacturing,Volkswagen Ag,United States
+336111,Automobile Manufacturing,Ferrari Nv,United States
+336111,Automobile Manufacturing,Fiat Chrysler Automobiles Nv,United States
+336111,Automobile Manufacturing,Fiat Chrysler,United States
+336111,Automobile Manufacturing,Toyota corp,United States
+336111,Automobile Manufacturing,Ford Motor Co,United States
